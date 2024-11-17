@@ -1,0 +1,244 @@
+I:\AAA  Important\dotNetWorkspace\Projects\Csharp\SF10 Generation Systems\SF10 Generation Systems\bin\Debug\SF10 Generation Systems.exe.config
+I:\AAA  Important\dotNetWorkspace\Projects\Csharp\SF10 Generation Systems\SF10 Generation Systems\bin\Debug\SF10 Generation Systems.exe
+I:\AAA  Important\dotNetWorkspace\Projects\Csharp\SF10 Generation Systems\SF10 Generation Systems\bin\Debug\SF10 Generation Systems.pdb
+I:\AAA  Important\dotNetWorkspace\Projects\Csharp\SF10 Generation Systems\SF10 Generation Systems\obj\Debug\SF10 Generation Systems.csprojAssemblyReference.cache
+I:\AAA  Important\dotNetWorkspace\Projects\Csharp\SF10 Generation Systems\SF10 Generation Systems\obj\Debug\SF10_Generation_Systems.Properties.Resources.resources
+I:\AAA  Important\dotNetWorkspace\Projects\Csharp\SF10 Generation Systems\SF10 Generation Systems\obj\Debug\SF10 Generation Systems.csproj.GenerateResource.cache
+I:\AAA  Important\dotNetWorkspace\Projects\Csharp\SF10 Generation Systems\SF10 Generation Systems\obj\Debug\SF10 Generation Systems.csproj.CoreCompileInputs.cache
+I:\AAA  Important\dotNetWorkspace\Projects\Csharp\SF10 Generation Systems\SF10 Generation Systems\obj\Debug\SF10 Generation Systems.exe
+I:\AAA  Important\dotNetWorkspace\Projects\Csharp\SF10 Generation Systems\SF10 Generation Systems\obj\Debug\SF10 Generation Systems.pdb
+I:\AAA  Important\dotNetWorkspace\Projects\Csharp\SF10 Generation Systems\SF10 Generation Systems\bin\Debug\libHarfBuzzSharp.dylib
+I:\AAA  Important\dotNetWorkspace\Projects\Csharp\SF10 Generation Systems\SF10 Generation Systems\bin\Debug\x86\libHarfBuzzSharp.dll
+I:\AAA  Important\dotNetWorkspace\Projects\Csharp\SF10 Generation Systems\SF10 Generation Systems\bin\Debug\x64\libHarfBuzzSharp.dll
+I:\AAA  Important\dotNetWorkspace\Projects\Csharp\SF10 Generation Systems\SF10 Generation Systems\bin\Debug\arm64\libHarfBuzzSharp.dll
+I:\AAA  Important\dotNetWorkspace\Projects\Csharp\SF10 Generation Systems\SF10 Generation Systems\bin\Debug\libSkiaSharp.dylib
+I:\AAA  Important\dotNetWorkspace\Projects\Csharp\SF10 Generation Systems\SF10 Generation Systems\bin\Debug\x86\libSkiaSharp.dll
+I:\AAA  Important\dotNetWorkspace\Projects\Csharp\SF10 Generation Systems\SF10 Generation Systems\bin\Debug\x64\libSkiaSharp.dll
+I:\AAA  Important\dotNetWorkspace\Projects\Csharp\SF10 Generation Systems\SF10 Generation Systems\bin\Debug\arm64\libSkiaSharp.dll
+I:\AAA  Important\dotNetWorkspace\Projects\Csharp\SF10 Generation Systems\SF10 Generation Systems\bin\Debug\BouncyCastle.Cryptography.dll
+I:\AAA  Important\dotNetWorkspace\Projects\Csharp\SF10 Generation Systems\SF10 Generation Systems\bin\Debug\GemBox.Document.dll
+I:\AAA  Important\dotNetWorkspace\Projects\Csharp\SF10 Generation Systems\SF10 Generation Systems\bin\Debug\GemBox.Email.dll
+I:\AAA  Important\dotNetWorkspace\Projects\Csharp\SF10 Generation Systems\SF10 Generation Systems\bin\Debug\GemBox.Imaging.dll
+I:\AAA  Important\dotNetWorkspace\Projects\Csharp\SF10 Generation Systems\SF10 Generation Systems\bin\Debug\GemBox.Pdf.dll
+I:\AAA  Important\dotNetWorkspace\Projects\Csharp\SF10 Generation Systems\SF10 Generation Systems\bin\Debug\GemBox.Presentation.dll
+I:\AAA  Important\dotNetWorkspace\Projects\Csharp\SF10 Generation Systems\SF10 Generation Systems\bin\Debug\GemBox.Spreadsheet.dll
+I:\AAA  Important\dotNetWorkspace\Projects\Csharp\SF10 Generation Systems\SF10 Generation Systems\bin\Debug\HarfBuzzSharp.dll
+I:\AAA  Important\dotNetWorkspace\Projects\Csharp\SF10 Generation Systems\SF10 Generation Systems\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+I:\AAA  Important\dotNetWorkspace\Projects\Csharp\SF10 Generation Systems\SF10 Generation Systems\bin\Debug\Pkcs11Interop.dll
+I:\AAA  Important\dotNetWorkspace\Projects\Csharp\SF10 Generation Systems\SF10 Generation Systems\bin\Debug\SkiaSharp.dll
+I:\AAA  Important\dotNetWorkspace\Projects\Csharp\SF10 Generation Systems\SF10 Generation Systems\bin\Debug\System.Buffers.dll
+I:\AAA  Important\dotNetWorkspace\Projects\Csharp\SF10 Generation Systems\SF10 Generation Systems\bin\Debug\System.Memory.dll
+I:\AAA  Important\dotNetWorkspace\Projects\Csharp\SF10 Generation Systems\SF10 Generation Systems\bin\Debug\System.Numerics.Vectors.dll
+I:\AAA  Important\dotNetWorkspace\Projects\Csharp\SF10 Generation Systems\SF10 Generation Systems\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+I:\AAA  Important\dotNetWorkspace\Projects\Csharp\SF10 Generation Systems\SF10 Generation Systems\bin\Debug\System.Text.Encodings.Web.dll
+I:\AAA  Important\dotNetWorkspace\Projects\Csharp\SF10 Generation Systems\SF10 Generation Systems\bin\Debug\System.Text.Json.dll
+I:\AAA  Important\dotNetWorkspace\Projects\Csharp\SF10 Generation Systems\SF10 Generation Systems\bin\Debug\System.Threading.Tasks.Extensions.dll
+I:\AAA  Important\dotNetWorkspace\Projects\Csharp\SF10 Generation Systems\SF10 Generation Systems\bin\Debug\System.ValueTuple.dll
+I:\AAA  Important\dotNetWorkspace\Projects\Csharp\SF10 Generation Systems\SF10 Generation Systems\bin\Debug\BouncyCastle.Cryptography.xml
+I:\AAA  Important\dotNetWorkspace\Projects\Csharp\SF10 Generation Systems\SF10 Generation Systems\bin\Debug\GemBox.Document.xml
+I:\AAA  Important\dotNetWorkspace\Projects\Csharp\SF10 Generation Systems\SF10 Generation Systems\bin\Debug\GemBox.Email.xml
+I:\AAA  Important\dotNetWorkspace\Projects\Csharp\SF10 Generation Systems\SF10 Generation Systems\bin\Debug\GemBox.Imaging.xml
+I:\AAA  Important\dotNetWorkspace\Projects\Csharp\SF10 Generation Systems\SF10 Generation Systems\bin\Debug\GemBox.Pdf.xml
+I:\AAA  Important\dotNetWorkspace\Projects\Csharp\SF10 Generation Systems\SF10 Generation Systems\bin\Debug\GemBox.Presentation.xml
+I:\AAA  Important\dotNetWorkspace\Projects\Csharp\SF10 Generation Systems\SF10 Generation Systems\bin\Debug\GemBox.Spreadsheet.xml
+I:\AAA  Important\dotNetWorkspace\Projects\Csharp\SF10 Generation Systems\SF10 Generation Systems\bin\Debug\HarfBuzzSharp.pdb
+I:\AAA  Important\dotNetWorkspace\Projects\Csharp\SF10 Generation Systems\SF10 Generation Systems\bin\Debug\HarfBuzzSharp.xml
+I:\AAA  Important\dotNetWorkspace\Projects\Csharp\SF10 Generation Systems\SF10 Generation Systems\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+I:\AAA  Important\dotNetWorkspace\Projects\Csharp\SF10 Generation Systems\SF10 Generation Systems\bin\Debug\Pkcs11Interop.xml
+I:\AAA  Important\dotNetWorkspace\Projects\Csharp\SF10 Generation Systems\SF10 Generation Systems\bin\Debug\SkiaSharp.pdb
+I:\AAA  Important\dotNetWorkspace\Projects\Csharp\SF10 Generation Systems\SF10 Generation Systems\bin\Debug\SkiaSharp.xml
+I:\AAA  Important\dotNetWorkspace\Projects\Csharp\SF10 Generation Systems\SF10 Generation Systems\bin\Debug\System.Buffers.xml
+I:\AAA  Important\dotNetWorkspace\Projects\Csharp\SF10 Generation Systems\SF10 Generation Systems\bin\Debug\System.Memory.xml
+I:\AAA  Important\dotNetWorkspace\Projects\Csharp\SF10 Generation Systems\SF10 Generation Systems\bin\Debug\System.Numerics.Vectors.xml
+I:\AAA  Important\dotNetWorkspace\Projects\Csharp\SF10 Generation Systems\SF10 Generation Systems\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+I:\AAA  Important\dotNetWorkspace\Projects\Csharp\SF10 Generation Systems\SF10 Generation Systems\bin\Debug\System.Text.Encodings.Web.xml
+I:\AAA  Important\dotNetWorkspace\Projects\Csharp\SF10 Generation Systems\SF10 Generation Systems\bin\Debug\System.Text.Json.xml
+I:\AAA  Important\dotNetWorkspace\Projects\Csharp\SF10 Generation Systems\SF10 Generation Systems\bin\Debug\System.Threading.Tasks.Extensions.xml
+I:\AAA  Important\dotNetWorkspace\Projects\Csharp\SF10 Generation Systems\SF10 Generation Systems\bin\Debug\System.ValueTuple.xml
+I:\AAA  Important\dotNetWorkspace\Projects\Csharp\SF10 Generation Systems\SF10 Generation Systems\obj\Debug\SF10_Generation_Systems.frmMain.resources
+I:\AAA  Important\dotNetWorkspace\Projects\Csharp\SF10 Generation Systems\SF10 Generation Systems\obj\Debug\SF10 Generation Systems.csproj.CopyComplete
+G:\AAA  Important\dotNetWorkspace\Projects\Csharp\SF10 Generation Systems\SF10 Generation Systems\obj\Debug\SF10 Generation Systems.csprojAssemblyReference.cache
+G:\AAA  Important\dotNetWorkspace\Projects\Csharp\SF10 Generation Systems\SF10 Generation Systems\obj\Debug\SF10_Generation_Systems.Properties.Resources.resources
+G:\AAA  Important\dotNetWorkspace\Projects\Csharp\SF10 Generation Systems\SF10 Generation Systems\obj\Debug\SF10 Generation Systems.csproj.GenerateResource.cache
+G:\AAA  Important\dotNetWorkspace\Projects\Csharp\SF10 Generation Systems\SF10 Generation Systems\obj\Debug\SF10 Generation Systems.csproj.CoreCompileInputs.cache
+G:\AAA  Important\dotNetWorkspace\Projects\Csharp\SF10 Generation Systems\SF10 Generation Systems\obj\Debug\SF10 Generation Systems.exe
+G:\AAA  Important\dotNetWorkspace\Projects\Csharp\SF10 Generation Systems\SF10 Generation Systems\obj\Debug\SF10 Generation Systems.pdb
+G:\AAA  Important\dotNetWorkspace\Projects\Csharp\SF10 Generation Systems\SF10 Generation Systems\bin\Debug\libHarfBuzzSharp.dylib
+G:\AAA  Important\dotNetWorkspace\Projects\Csharp\SF10 Generation Systems\SF10 Generation Systems\bin\Debug\x86\libHarfBuzzSharp.dll
+G:\AAA  Important\dotNetWorkspace\Projects\Csharp\SF10 Generation Systems\SF10 Generation Systems\bin\Debug\x64\libHarfBuzzSharp.dll
+G:\AAA  Important\dotNetWorkspace\Projects\Csharp\SF10 Generation Systems\SF10 Generation Systems\bin\Debug\arm64\libHarfBuzzSharp.dll
+G:\AAA  Important\dotNetWorkspace\Projects\Csharp\SF10 Generation Systems\SF10 Generation Systems\bin\Debug\libSkiaSharp.dylib
+G:\AAA  Important\dotNetWorkspace\Projects\Csharp\SF10 Generation Systems\SF10 Generation Systems\bin\Debug\x86\libSkiaSharp.dll
+G:\AAA  Important\dotNetWorkspace\Projects\Csharp\SF10 Generation Systems\SF10 Generation Systems\bin\Debug\x64\libSkiaSharp.dll
+G:\AAA  Important\dotNetWorkspace\Projects\Csharp\SF10 Generation Systems\SF10 Generation Systems\bin\Debug\arm64\libSkiaSharp.dll
+G:\AAA  Important\dotNetWorkspace\Projects\Csharp\SF10 Generation Systems\SF10 Generation Systems\bin\Debug\SF10 Generation Systems.exe.config
+G:\AAA  Important\dotNetWorkspace\Projects\Csharp\SF10 Generation Systems\SF10 Generation Systems\bin\Debug\SF10 Generation Systems.exe
+G:\AAA  Important\dotNetWorkspace\Projects\Csharp\SF10 Generation Systems\SF10 Generation Systems\bin\Debug\SF10 Generation Systems.pdb
+G:\AAA  Important\dotNetWorkspace\Projects\Csharp\SF10 Generation Systems\SF10 Generation Systems\bin\Debug\BouncyCastle.Cryptography.dll
+G:\AAA  Important\dotNetWorkspace\Projects\Csharp\SF10 Generation Systems\SF10 Generation Systems\bin\Debug\GemBox.Document.dll
+G:\AAA  Important\dotNetWorkspace\Projects\Csharp\SF10 Generation Systems\SF10 Generation Systems\bin\Debug\GemBox.Email.dll
+G:\AAA  Important\dotNetWorkspace\Projects\Csharp\SF10 Generation Systems\SF10 Generation Systems\bin\Debug\GemBox.Imaging.dll
+G:\AAA  Important\dotNetWorkspace\Projects\Csharp\SF10 Generation Systems\SF10 Generation Systems\bin\Debug\GemBox.Pdf.dll
+G:\AAA  Important\dotNetWorkspace\Projects\Csharp\SF10 Generation Systems\SF10 Generation Systems\bin\Debug\GemBox.Presentation.dll
+G:\AAA  Important\dotNetWorkspace\Projects\Csharp\SF10 Generation Systems\SF10 Generation Systems\bin\Debug\GemBox.Spreadsheet.dll
+G:\AAA  Important\dotNetWorkspace\Projects\Csharp\SF10 Generation Systems\SF10 Generation Systems\bin\Debug\HarfBuzzSharp.dll
+G:\AAA  Important\dotNetWorkspace\Projects\Csharp\SF10 Generation Systems\SF10 Generation Systems\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+G:\AAA  Important\dotNetWorkspace\Projects\Csharp\SF10 Generation Systems\SF10 Generation Systems\bin\Debug\Pkcs11Interop.dll
+G:\AAA  Important\dotNetWorkspace\Projects\Csharp\SF10 Generation Systems\SF10 Generation Systems\bin\Debug\SkiaSharp.dll
+G:\AAA  Important\dotNetWorkspace\Projects\Csharp\SF10 Generation Systems\SF10 Generation Systems\bin\Debug\System.Buffers.dll
+G:\AAA  Important\dotNetWorkspace\Projects\Csharp\SF10 Generation Systems\SF10 Generation Systems\bin\Debug\System.Memory.dll
+G:\AAA  Important\dotNetWorkspace\Projects\Csharp\SF10 Generation Systems\SF10 Generation Systems\bin\Debug\System.Numerics.Vectors.dll
+G:\AAA  Important\dotNetWorkspace\Projects\Csharp\SF10 Generation Systems\SF10 Generation Systems\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+G:\AAA  Important\dotNetWorkspace\Projects\Csharp\SF10 Generation Systems\SF10 Generation Systems\bin\Debug\System.Text.Encodings.Web.dll
+G:\AAA  Important\dotNetWorkspace\Projects\Csharp\SF10 Generation Systems\SF10 Generation Systems\bin\Debug\System.Text.Json.dll
+G:\AAA  Important\dotNetWorkspace\Projects\Csharp\SF10 Generation Systems\SF10 Generation Systems\bin\Debug\System.Threading.Tasks.Extensions.dll
+G:\AAA  Important\dotNetWorkspace\Projects\Csharp\SF10 Generation Systems\SF10 Generation Systems\bin\Debug\System.ValueTuple.dll
+G:\AAA  Important\dotNetWorkspace\Projects\Csharp\SF10 Generation Systems\SF10 Generation Systems\bin\Debug\BouncyCastle.Cryptography.xml
+G:\AAA  Important\dotNetWorkspace\Projects\Csharp\SF10 Generation Systems\SF10 Generation Systems\bin\Debug\GemBox.Document.xml
+G:\AAA  Important\dotNetWorkspace\Projects\Csharp\SF10 Generation Systems\SF10 Generation Systems\bin\Debug\GemBox.Email.xml
+G:\AAA  Important\dotNetWorkspace\Projects\Csharp\SF10 Generation Systems\SF10 Generation Systems\bin\Debug\GemBox.Imaging.xml
+G:\AAA  Important\dotNetWorkspace\Projects\Csharp\SF10 Generation Systems\SF10 Generation Systems\bin\Debug\GemBox.Pdf.xml
+G:\AAA  Important\dotNetWorkspace\Projects\Csharp\SF10 Generation Systems\SF10 Generation Systems\bin\Debug\GemBox.Presentation.xml
+G:\AAA  Important\dotNetWorkspace\Projects\Csharp\SF10 Generation Systems\SF10 Generation Systems\bin\Debug\GemBox.Spreadsheet.xml
+G:\AAA  Important\dotNetWorkspace\Projects\Csharp\SF10 Generation Systems\SF10 Generation Systems\bin\Debug\HarfBuzzSharp.pdb
+G:\AAA  Important\dotNetWorkspace\Projects\Csharp\SF10 Generation Systems\SF10 Generation Systems\bin\Debug\HarfBuzzSharp.xml
+G:\AAA  Important\dotNetWorkspace\Projects\Csharp\SF10 Generation Systems\SF10 Generation Systems\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+G:\AAA  Important\dotNetWorkspace\Projects\Csharp\SF10 Generation Systems\SF10 Generation Systems\bin\Debug\Pkcs11Interop.xml
+G:\AAA  Important\dotNetWorkspace\Projects\Csharp\SF10 Generation Systems\SF10 Generation Systems\bin\Debug\SkiaSharp.pdb
+G:\AAA  Important\dotNetWorkspace\Projects\Csharp\SF10 Generation Systems\SF10 Generation Systems\bin\Debug\SkiaSharp.xml
+G:\AAA  Important\dotNetWorkspace\Projects\Csharp\SF10 Generation Systems\SF10 Generation Systems\bin\Debug\System.Buffers.xml
+G:\AAA  Important\dotNetWorkspace\Projects\Csharp\SF10 Generation Systems\SF10 Generation Systems\bin\Debug\System.Memory.xml
+G:\AAA  Important\dotNetWorkspace\Projects\Csharp\SF10 Generation Systems\SF10 Generation Systems\bin\Debug\System.Numerics.Vectors.xml
+G:\AAA  Important\dotNetWorkspace\Projects\Csharp\SF10 Generation Systems\SF10 Generation Systems\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+G:\AAA  Important\dotNetWorkspace\Projects\Csharp\SF10 Generation Systems\SF10 Generation Systems\bin\Debug\System.Text.Encodings.Web.xml
+G:\AAA  Important\dotNetWorkspace\Projects\Csharp\SF10 Generation Systems\SF10 Generation Systems\bin\Debug\System.Text.Json.xml
+G:\AAA  Important\dotNetWorkspace\Projects\Csharp\SF10 Generation Systems\SF10 Generation Systems\bin\Debug\System.Threading.Tasks.Extensions.xml
+G:\AAA  Important\dotNetWorkspace\Projects\Csharp\SF10 Generation Systems\SF10 Generation Systems\bin\Debug\System.ValueTuple.xml
+G:\AAA  Important\dotNetWorkspace\Projects\Csharp\SF10 Generation Systems\SF10 Generation Systems\obj\Debug\SF10_Generation_Systems.main.resources
+G:\AAA  Important\dotNetWorkspace\Projects\Csharp\SF10 Generation Systems\SF10 Generation Systems\obj\Debug\SF10 Generation Systems.csproj.CopyComplete
+G:\AAA  Important\dotNetWorkspace\Projects\Csharp\SF10 Generation Systems\SF10 Generation Systems\bin\Debug\x64\libSkiaSharp.so
+G:\AAA  Important\dotNetWorkspace\Projects\Csharp\SF10 Generation Systems\SF10 Generation Systems\bin\Debug\arm\libSkiaSharp.so
+G:\AAA  Important\dotNetWorkspace\Projects\Csharp\SF10 Generation Systems\SF10 Generation Systems\bin\Debug\arm64\libSkiaSharp.so
+G:\AAA  Important\dotNetWorkspace\Projects\Csharp\SF10 Generation Systems\SF10 Generation Systems\bin\Debug\musl-x64\libSkiaSharp.so
+G:\AAA  Important\dotNetWorkspace\Projects\Csharp\SF10 Generation Systems\SF10 Generation Systems\bin\Debug\OpenTK.dll
+G:\AAA  Important\dotNetWorkspace\Projects\Csharp\SF10 Generation Systems\SF10 Generation Systems\bin\Debug\OpenTK.GLControl.dll
+G:\AAA  Important\dotNetWorkspace\Projects\Csharp\SF10 Generation Systems\SF10 Generation Systems\bin\Debug\ScottPlot.dll
+G:\AAA  Important\dotNetWorkspace\Projects\Csharp\SF10 Generation Systems\SF10 Generation Systems\bin\Debug\ScottPlot.WinForms.dll
+G:\AAA  Important\dotNetWorkspace\Projects\Csharp\SF10 Generation Systems\SF10 Generation Systems\bin\Debug\SkiaSharp.Views.Desktop.Common.dll
+G:\AAA  Important\dotNetWorkspace\Projects\Csharp\SF10 Generation Systems\SF10 Generation Systems\bin\Debug\SkiaSharp.Views.WindowsForms.dll
+G:\AAA  Important\dotNetWorkspace\Projects\Csharp\SF10 Generation Systems\SF10 Generation Systems\bin\Debug\System.Drawing.Common.dll
+G:\AAA  Important\dotNetWorkspace\Projects\Csharp\SF10 Generation Systems\SF10 Generation Systems\bin\Debug\OpenTK.pdb
+G:\AAA  Important\dotNetWorkspace\Projects\Csharp\SF10 Generation Systems\SF10 Generation Systems\bin\Debug\OpenTK.xml
+G:\AAA  Important\dotNetWorkspace\Projects\Csharp\SF10 Generation Systems\SF10 Generation Systems\bin\Debug\OpenTK.GLControl.pdb
+G:\AAA  Important\dotNetWorkspace\Projects\Csharp\SF10 Generation Systems\SF10 Generation Systems\bin\Debug\OpenTK.GLControl.xml
+G:\AAA  Important\dotNetWorkspace\Projects\Csharp\SF10 Generation Systems\SF10 Generation Systems\bin\Debug\ScottPlot.xml
+G:\AAA  Important\dotNetWorkspace\Projects\Csharp\SF10 Generation Systems\SF10 Generation Systems\bin\Debug\ScottPlot.WinForms.xml
+G:\AAA  Important\dotNetWorkspace\Projects\Csharp\SF10 Generation Systems\SF10 Generation Systems\bin\Debug\SkiaSharp.Views.Desktop.Common.pdb
+G:\AAA  Important\dotNetWorkspace\Projects\Csharp\SF10 Generation Systems\SF10 Generation Systems\bin\Debug\SkiaSharp.Views.Desktop.Common.xml
+G:\AAA  Important\dotNetWorkspace\Projects\Csharp\SF10 Generation Systems\SF10 Generation Systems\bin\Debug\SkiaSharp.Views.WindowsForms.pdb
+G:\AAA  Important\dotNetWorkspace\Projects\Csharp\SF10 Generation Systems\SF10 Generation Systems\bin\Debug\SkiaSharp.Views.WindowsForms.xml
+E:\AAA  Important\dotNetWorkspace\Projects\Csharp\SF10 Generation Systems\SF10 Generation Systems\obj\Debug\SF10 Generation Systems.exe.config
+E:\AAA  Important\dotNetWorkspace\Projects\Csharp\SF10 Generation Systems\SF10 Generation Systems\obj\Debug\SF10_Generation_Systems.Properties.Resources.resources
+E:\AAA  Important\dotNetWorkspace\Projects\Csharp\SF10 Generation Systems\SF10 Generation Systems\obj\Debug\SF10 Generation Systems.csproj.GenerateResource.cache
+E:\AAA  Important\dotNetWorkspace\Projects\Csharp\SF10 Generation Systems\SF10 Generation Systems\obj\Debug\SF10 Generation Systems.csproj.CoreCompileInputs.cache
+E:\AAA  Important\dotNetWorkspace\Projects\Csharp\SF10 Generation Systems\SF10 Generation Systems\obj\Debug\SF10 Generation Systems.exe
+E:\AAA  Important\dotNetWorkspace\Projects\Csharp\SF10 Generation Systems\SF10 Generation Systems\obj\Debug\SF10 Generation Systems.pdb
+E:\AAA  Important\dotNetWorkspace\Projects\Csharp\SF10 Generation Systems\SF10 Generation Systems\bin\Debug\libHarfBuzzSharp.dylib
+E:\AAA  Important\dotNetWorkspace\Projects\Csharp\SF10 Generation Systems\SF10 Generation Systems\bin\Debug\x86\libHarfBuzzSharp.dll
+E:\AAA  Important\dotNetWorkspace\Projects\Csharp\SF10 Generation Systems\SF10 Generation Systems\bin\Debug\x64\libHarfBuzzSharp.dll
+E:\AAA  Important\dotNetWorkspace\Projects\Csharp\SF10 Generation Systems\SF10 Generation Systems\bin\Debug\arm64\libHarfBuzzSharp.dll
+E:\AAA  Important\dotNetWorkspace\Projects\Csharp\SF10 Generation Systems\SF10 Generation Systems\bin\Debug\libSkiaSharp.dylib
+E:\AAA  Important\dotNetWorkspace\Projects\Csharp\SF10 Generation Systems\SF10 Generation Systems\bin\Debug\x86\libSkiaSharp.dll
+E:\AAA  Important\dotNetWorkspace\Projects\Csharp\SF10 Generation Systems\SF10 Generation Systems\bin\Debug\x64\libSkiaSharp.dll
+E:\AAA  Important\dotNetWorkspace\Projects\Csharp\SF10 Generation Systems\SF10 Generation Systems\bin\Debug\arm64\libSkiaSharp.dll
+E:\AAA  Important\dotNetWorkspace\Projects\Csharp\SF10 Generation Systems\SF10 Generation Systems\bin\Debug\x64\libSkiaSharp.so
+E:\AAA  Important\dotNetWorkspace\Projects\Csharp\SF10 Generation Systems\SF10 Generation Systems\bin\Debug\arm\libSkiaSharp.so
+E:\AAA  Important\dotNetWorkspace\Projects\Csharp\SF10 Generation Systems\SF10 Generation Systems\bin\Debug\arm64\libSkiaSharp.so
+E:\AAA  Important\dotNetWorkspace\Projects\Csharp\SF10 Generation Systems\SF10 Generation Systems\bin\Debug\musl-x64\libSkiaSharp.so
+E:\AAA  Important\dotNetWorkspace\Projects\Csharp\SF10 Generation Systems\SF10 Generation Systems\bin\Debug\SF10 Generation Systems.exe.config
+E:\AAA  Important\dotNetWorkspace\Projects\Csharp\SF10 Generation Systems\SF10 Generation Systems\bin\Debug\SF10 Generation Systems.exe
+E:\AAA  Important\dotNetWorkspace\Projects\Csharp\SF10 Generation Systems\SF10 Generation Systems\bin\Debug\SF10 Generation Systems.pdb
+E:\AAA  Important\dotNetWorkspace\Projects\Csharp\SF10 Generation Systems\SF10 Generation Systems\bin\Debug\BouncyCastle.Cryptography.dll
+E:\AAA  Important\dotNetWorkspace\Projects\Csharp\SF10 Generation Systems\SF10 Generation Systems\bin\Debug\GemBox.Document.dll
+E:\AAA  Important\dotNetWorkspace\Projects\Csharp\SF10 Generation Systems\SF10 Generation Systems\bin\Debug\GemBox.Email.dll
+E:\AAA  Important\dotNetWorkspace\Projects\Csharp\SF10 Generation Systems\SF10 Generation Systems\bin\Debug\GemBox.Imaging.dll
+E:\AAA  Important\dotNetWorkspace\Projects\Csharp\SF10 Generation Systems\SF10 Generation Systems\bin\Debug\GemBox.Pdf.dll
+E:\AAA  Important\dotNetWorkspace\Projects\Csharp\SF10 Generation Systems\SF10 Generation Systems\bin\Debug\GemBox.Presentation.dll
+E:\AAA  Important\dotNetWorkspace\Projects\Csharp\SF10 Generation Systems\SF10 Generation Systems\bin\Debug\GemBox.Spreadsheet.dll
+E:\AAA  Important\dotNetWorkspace\Projects\Csharp\SF10 Generation Systems\SF10 Generation Systems\bin\Debug\HarfBuzzSharp.dll
+E:\AAA  Important\dotNetWorkspace\Projects\Csharp\SF10 Generation Systems\SF10 Generation Systems\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+E:\AAA  Important\dotNetWorkspace\Projects\Csharp\SF10 Generation Systems\SF10 Generation Systems\bin\Debug\OpenTK.dll
+E:\AAA  Important\dotNetWorkspace\Projects\Csharp\SF10 Generation Systems\SF10 Generation Systems\bin\Debug\OpenTK.GLControl.dll
+E:\AAA  Important\dotNetWorkspace\Projects\Csharp\SF10 Generation Systems\SF10 Generation Systems\bin\Debug\Pkcs11Interop.dll
+E:\AAA  Important\dotNetWorkspace\Projects\Csharp\SF10 Generation Systems\SF10 Generation Systems\bin\Debug\ScottPlot.dll
+E:\AAA  Important\dotNetWorkspace\Projects\Csharp\SF10 Generation Systems\SF10 Generation Systems\bin\Debug\ScottPlot.WinForms.dll
+E:\AAA  Important\dotNetWorkspace\Projects\Csharp\SF10 Generation Systems\SF10 Generation Systems\bin\Debug\SkiaSharp.dll
+E:\AAA  Important\dotNetWorkspace\Projects\Csharp\SF10 Generation Systems\SF10 Generation Systems\bin\Debug\SkiaSharp.Views.Desktop.Common.dll
+E:\AAA  Important\dotNetWorkspace\Projects\Csharp\SF10 Generation Systems\SF10 Generation Systems\bin\Debug\SkiaSharp.Views.WindowsForms.dll
+E:\AAA  Important\dotNetWorkspace\Projects\Csharp\SF10 Generation Systems\SF10 Generation Systems\bin\Debug\System.Buffers.dll
+E:\AAA  Important\dotNetWorkspace\Projects\Csharp\SF10 Generation Systems\SF10 Generation Systems\bin\Debug\System.Drawing.Common.dll
+E:\AAA  Important\dotNetWorkspace\Projects\Csharp\SF10 Generation Systems\SF10 Generation Systems\bin\Debug\System.Memory.dll
+E:\AAA  Important\dotNetWorkspace\Projects\Csharp\SF10 Generation Systems\SF10 Generation Systems\bin\Debug\System.Numerics.Vectors.dll
+E:\AAA  Important\dotNetWorkspace\Projects\Csharp\SF10 Generation Systems\SF10 Generation Systems\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+E:\AAA  Important\dotNetWorkspace\Projects\Csharp\SF10 Generation Systems\SF10 Generation Systems\bin\Debug\System.Text.Encodings.Web.dll
+E:\AAA  Important\dotNetWorkspace\Projects\Csharp\SF10 Generation Systems\SF10 Generation Systems\bin\Debug\System.Text.Json.dll
+E:\AAA  Important\dotNetWorkspace\Projects\Csharp\SF10 Generation Systems\SF10 Generation Systems\bin\Debug\System.Threading.Tasks.Extensions.dll
+E:\AAA  Important\dotNetWorkspace\Projects\Csharp\SF10 Generation Systems\SF10 Generation Systems\bin\Debug\System.ValueTuple.dll
+E:\AAA  Important\dotNetWorkspace\Projects\Csharp\SF10 Generation Systems\SF10 Generation Systems\bin\Debug\BouncyCastle.Cryptography.xml
+E:\AAA  Important\dotNetWorkspace\Projects\Csharp\SF10 Generation Systems\SF10 Generation Systems\bin\Debug\GemBox.Document.xml
+E:\AAA  Important\dotNetWorkspace\Projects\Csharp\SF10 Generation Systems\SF10 Generation Systems\bin\Debug\GemBox.Email.xml
+E:\AAA  Important\dotNetWorkspace\Projects\Csharp\SF10 Generation Systems\SF10 Generation Systems\bin\Debug\GemBox.Imaging.xml
+E:\AAA  Important\dotNetWorkspace\Projects\Csharp\SF10 Generation Systems\SF10 Generation Systems\bin\Debug\GemBox.Pdf.xml
+E:\AAA  Important\dotNetWorkspace\Projects\Csharp\SF10 Generation Systems\SF10 Generation Systems\bin\Debug\GemBox.Presentation.xml
+E:\AAA  Important\dotNetWorkspace\Projects\Csharp\SF10 Generation Systems\SF10 Generation Systems\bin\Debug\GemBox.Spreadsheet.xml
+E:\AAA  Important\dotNetWorkspace\Projects\Csharp\SF10 Generation Systems\SF10 Generation Systems\bin\Debug\HarfBuzzSharp.pdb
+E:\AAA  Important\dotNetWorkspace\Projects\Csharp\SF10 Generation Systems\SF10 Generation Systems\bin\Debug\HarfBuzzSharp.xml
+E:\AAA  Important\dotNetWorkspace\Projects\Csharp\SF10 Generation Systems\SF10 Generation Systems\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+E:\AAA  Important\dotNetWorkspace\Projects\Csharp\SF10 Generation Systems\SF10 Generation Systems\bin\Debug\OpenTK.pdb
+E:\AAA  Important\dotNetWorkspace\Projects\Csharp\SF10 Generation Systems\SF10 Generation Systems\bin\Debug\OpenTK.xml
+E:\AAA  Important\dotNetWorkspace\Projects\Csharp\SF10 Generation Systems\SF10 Generation Systems\bin\Debug\OpenTK.GLControl.pdb
+E:\AAA  Important\dotNetWorkspace\Projects\Csharp\SF10 Generation Systems\SF10 Generation Systems\bin\Debug\OpenTK.GLControl.xml
+E:\AAA  Important\dotNetWorkspace\Projects\Csharp\SF10 Generation Systems\SF10 Generation Systems\bin\Debug\Pkcs11Interop.xml
+E:\AAA  Important\dotNetWorkspace\Projects\Csharp\SF10 Generation Systems\SF10 Generation Systems\bin\Debug\ScottPlot.xml
+E:\AAA  Important\dotNetWorkspace\Projects\Csharp\SF10 Generation Systems\SF10 Generation Systems\bin\Debug\ScottPlot.WinForms.xml
+E:\AAA  Important\dotNetWorkspace\Projects\Csharp\SF10 Generation Systems\SF10 Generation Systems\bin\Debug\SkiaSharp.pdb
+E:\AAA  Important\dotNetWorkspace\Projects\Csharp\SF10 Generation Systems\SF10 Generation Systems\bin\Debug\SkiaSharp.xml
+E:\AAA  Important\dotNetWorkspace\Projects\Csharp\SF10 Generation Systems\SF10 Generation Systems\bin\Debug\SkiaSharp.Views.Desktop.Common.pdb
+E:\AAA  Important\dotNetWorkspace\Projects\Csharp\SF10 Generation Systems\SF10 Generation Systems\bin\Debug\SkiaSharp.Views.Desktop.Common.xml
+E:\AAA  Important\dotNetWorkspace\Projects\Csharp\SF10 Generation Systems\SF10 Generation Systems\bin\Debug\SkiaSharp.Views.WindowsForms.pdb
+E:\AAA  Important\dotNetWorkspace\Projects\Csharp\SF10 Generation Systems\SF10 Generation Systems\bin\Debug\SkiaSharp.Views.WindowsForms.xml
+E:\AAA  Important\dotNetWorkspace\Projects\Csharp\SF10 Generation Systems\SF10 Generation Systems\bin\Debug\System.Buffers.xml
+E:\AAA  Important\dotNetWorkspace\Projects\Csharp\SF10 Generation Systems\SF10 Generation Systems\bin\Debug\System.Memory.xml
+E:\AAA  Important\dotNetWorkspace\Projects\Csharp\SF10 Generation Systems\SF10 Generation Systems\bin\Debug\System.Numerics.Vectors.xml
+E:\AAA  Important\dotNetWorkspace\Projects\Csharp\SF10 Generation Systems\SF10 Generation Systems\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+E:\AAA  Important\dotNetWorkspace\Projects\Csharp\SF10 Generation Systems\SF10 Generation Systems\bin\Debug\System.Text.Encodings.Web.xml
+E:\AAA  Important\dotNetWorkspace\Projects\Csharp\SF10 Generation Systems\SF10 Generation Systems\bin\Debug\System.Text.Json.xml
+E:\AAA  Important\dotNetWorkspace\Projects\Csharp\SF10 Generation Systems\SF10 Generation Systems\bin\Debug\System.Threading.Tasks.Extensions.xml
+E:\AAA  Important\dotNetWorkspace\Projects\Csharp\SF10 Generation Systems\SF10 Generation Systems\bin\Debug\System.ValueTuple.xml
+E:\AAA  Important\dotNetWorkspace\Projects\Csharp\SF10 Generation Systems\SF10 Generation Systems\obj\Debug\SF10 Generation Systems.csproj.CopyComplete
+E:\AAA  Important\dotNetWorkspace\Projects\Csharp\SF10 Generation Systems\SF10 Generation Systems\obj\Debug\SF10_Generation_Systems.frmMain.resources
+E:\AAA  Important\dotNetWorkspace\Projects\Csharp\SF10 Generation Systems\SF10 Generation Systems\obj\Debug\SF10 Generation Systems.csproj.AssemblyReference.cache
+E:\AAA  Important\dotNetWorkspace\Projects\Csharp\SF10 Generation Systems\SF10 Generation Systems\obj\Debug\SF10_Generation_Systems.Selector.resources
+I:\AAA  Important\dotNetWorkspace\Projects\Csharp\SF10 Generation Systems\SF10 Generation Systems\bin\Debug\x64\libSkiaSharp.so
+I:\AAA  Important\dotNetWorkspace\Projects\Csharp\SF10 Generation Systems\SF10 Generation Systems\bin\Debug\arm\libSkiaSharp.so
+I:\AAA  Important\dotNetWorkspace\Projects\Csharp\SF10 Generation Systems\SF10 Generation Systems\bin\Debug\arm64\libSkiaSharp.so
+I:\AAA  Important\dotNetWorkspace\Projects\Csharp\SF10 Generation Systems\SF10 Generation Systems\bin\Debug\musl-x64\libSkiaSharp.so
+I:\AAA  Important\dotNetWorkspace\Projects\Csharp\SF10 Generation Systems\SF10 Generation Systems\bin\Debug\OpenTK.dll
+I:\AAA  Important\dotNetWorkspace\Projects\Csharp\SF10 Generation Systems\SF10 Generation Systems\bin\Debug\OpenTK.GLControl.dll
+I:\AAA  Important\dotNetWorkspace\Projects\Csharp\SF10 Generation Systems\SF10 Generation Systems\bin\Debug\ScottPlot.dll
+I:\AAA  Important\dotNetWorkspace\Projects\Csharp\SF10 Generation Systems\SF10 Generation Systems\bin\Debug\ScottPlot.WinForms.dll
+I:\AAA  Important\dotNetWorkspace\Projects\Csharp\SF10 Generation Systems\SF10 Generation Systems\bin\Debug\SkiaSharp.Views.Desktop.Common.dll
+I:\AAA  Important\dotNetWorkspace\Projects\Csharp\SF10 Generation Systems\SF10 Generation Systems\bin\Debug\SkiaSharp.Views.WindowsForms.dll
+I:\AAA  Important\dotNetWorkspace\Projects\Csharp\SF10 Generation Systems\SF10 Generation Systems\bin\Debug\System.Drawing.Common.dll
+I:\AAA  Important\dotNetWorkspace\Projects\Csharp\SF10 Generation Systems\SF10 Generation Systems\bin\Debug\OpenTK.pdb
+I:\AAA  Important\dotNetWorkspace\Projects\Csharp\SF10 Generation Systems\SF10 Generation Systems\bin\Debug\OpenTK.xml
+I:\AAA  Important\dotNetWorkspace\Projects\Csharp\SF10 Generation Systems\SF10 Generation Systems\bin\Debug\OpenTK.GLControl.pdb
+I:\AAA  Important\dotNetWorkspace\Projects\Csharp\SF10 Generation Systems\SF10 Generation Systems\bin\Debug\OpenTK.GLControl.xml
+I:\AAA  Important\dotNetWorkspace\Projects\Csharp\SF10 Generation Systems\SF10 Generation Systems\bin\Debug\ScottPlot.xml
+I:\AAA  Important\dotNetWorkspace\Projects\Csharp\SF10 Generation Systems\SF10 Generation Systems\bin\Debug\ScottPlot.WinForms.xml
+I:\AAA  Important\dotNetWorkspace\Projects\Csharp\SF10 Generation Systems\SF10 Generation Systems\bin\Debug\SkiaSharp.Views.Desktop.Common.pdb
+I:\AAA  Important\dotNetWorkspace\Projects\Csharp\SF10 Generation Systems\SF10 Generation Systems\bin\Debug\SkiaSharp.Views.Desktop.Common.xml
+I:\AAA  Important\dotNetWorkspace\Projects\Csharp\SF10 Generation Systems\SF10 Generation Systems\bin\Debug\SkiaSharp.Views.WindowsForms.pdb
+I:\AAA  Important\dotNetWorkspace\Projects\Csharp\SF10 Generation Systems\SF10 Generation Systems\bin\Debug\SkiaSharp.Views.WindowsForms.xml
+I:\AAA  Important\dotNetWorkspace\Projects\Csharp\SF10 Generation Systems\SF10 Generation Systems\obj\Debug\SF10 Generation Systems.exe.config
+I:\AAA  Important\dotNetWorkspace\Projects\Csharp\SF10 Generation Systems\SF10 Generation Systems\obj\Debug\SF10_Generation_Systems.Selector.resources

@@ -1,0 +1,1082 @@
+<?xml version="1.0"?>
+<doc>
+  <assembly>
+    <name>GemBox.Imaging</name>
+  </assembly>
+  <members>
+    <member name="T:GemBox.Imaging.Color">
+      <summary>
+            Represents a color.
+            </summary>
+    </member>
+    <member name="F:GemBox.Imaging.Color.Empty">
+      <summary>
+            Represents an empty color (Hex = 0x00000000).
+            </summary>
+    </member>
+    <member name="F:GemBox.Imaging.Color.White">
+      <summary>
+            Represents a write color (Hex = 0xFFFFFF).
+            </summary>
+    </member>
+    <member name="F:GemBox.Imaging.Color.Black">
+      <summary>
+            Represents a black color (Hex = 0x000000).
+            </summary>
+    </member>
+    <member name="F:GemBox.Imaging.Color.Blue">
+      <summary>
+            Represents a blue color (Hex = 0x0000FF).
+            </summary>
+    </member>
+    <member name="F:GemBox.Imaging.Color.Brown">
+      <summary>
+            Represents a brown color (Hex = 0xA52A2A).
+            </summary>
+    </member>
+    <member name="F:GemBox.Imaging.Color.Gray">
+      <summary>
+            Represents a gray color (Hex = 0x808080).
+            </summary>
+    </member>
+    <member name="F:GemBox.Imaging.Color.Green">
+      <summary>
+            Represents a green color (Hex = 0x00FF00).
+            </summary>
+    </member>
+    <member name="F:GemBox.Imaging.Color.Orange">
+      <summary>
+            Represents an orange color (Hex = 0xFFA500).
+            </summary>
+    </member>
+    <member name="F:GemBox.Imaging.Color.Pink">
+      <summary>
+            Represents a pink color (Hex = 0xFFC0CB).
+            </summary>
+    </member>
+    <member name="F:GemBox.Imaging.Color.Purple">
+      <summary>
+            Represents a purple color (Hex = 0x800080).
+            </summary>
+    </member>
+    <member name="F:GemBox.Imaging.Color.Red">
+      <summary>
+            Represents a red color (Hex = 0xFF0000).
+            </summary>
+    </member>
+    <member name="F:GemBox.Imaging.Color.Yellow">
+      <summary>
+            Represents a yellow color (Hex = 0xFFFF00).
+            </summary>
+    </member>
+    <member name="F:GemBox.Imaging.Color.Cyan">
+      <summary>
+            Represents a cyan color (Hex = 0x00FFFF).
+            </summary>
+    </member>
+    <member name="F:GemBox.Imaging.Color.DarkBlue">
+      <summary>
+            Represents a dark blue color (Hex = 0x000080).
+            </summary>
+    </member>
+    <member name="F:GemBox.Imaging.Color.DarkCyan">
+      <summary>
+            Represents a dark cyan color (Hex = 0x008080).
+            </summary>
+    </member>
+    <member name="F:GemBox.Imaging.Color.DarkGray">
+      <summary>
+            Represents a dark gray color (Hex = 0x808080).
+            </summary>
+    </member>
+    <member name="F:GemBox.Imaging.Color.DarkGreen">
+      <summary>
+            Represents a dark green color (Hex = 0x008000).
+            </summary>
+    </member>
+    <member name="F:GemBox.Imaging.Color.DarkMagenta">
+      <summary>
+            Represents a dark magenta color (Hex = 0x800080).
+            </summary>
+    </member>
+    <member name="F:GemBox.Imaging.Color.DarkRed">
+      <summary>
+            Represents a dark red color (Hex = 0x800000).
+            </summary>
+    </member>
+    <member name="F:GemBox.Imaging.Color.DarkYellow">
+      <summary>
+            Represents a dark yellow color (Hex = 0x808000).
+            </summary>
+    </member>
+    <member name="F:GemBox.Imaging.Color.LightGray">
+      <summary>
+            Represents a light gray color (Hex = 0xC0C0C0).
+            </summary>
+    </member>
+    <member name="F:GemBox.Imaging.Color.Magenta">
+      <summary>
+            Represents a magenta color (Hex = 0xFF00FF).
+            </summary>
+    </member>
+    <member name="M:GemBox.Imaging.Color.#ctor(System.Byte,System.Byte,System.Byte)">
+      <summary>
+            Initializes a new instance of the <see cref="T:GemBox.Imaging.Color" /> struct with full opacity.
+            </summary>
+      <param name="red">The red component.</param>
+      <param name="green">The green component.</param>
+      <param name="blue">The blue component.</param>
+    </member>
+    <member name="M:GemBox.Imaging.Color.#ctor(System.Single,System.Single,System.Single)">
+      <summary>
+            Initializes a new instance of the <see cref="T:GemBox.Imaging.Color" /> struct with full opacity.
+            </summary>
+      <param name="red">The normalized red component.</param>
+      <param name="green">The normalized green component.</param>
+      <param name="blue">The normalized blue component.</param>
+    </member>
+    <member name="M:GemBox.Imaging.Color.#ctor(System.String)">
+      <summary>
+            Initializes a new instance of the <see cref="T:GemBox.Imaging.Color" /> struct.
+            </summary>
+      <param name="hex">The string that represents the color in the format #RRGGBBAA or #RRGGBB where 
+            RR is the byte that represents the red component, 
+            GG is the byte that represents the green component and 
+            BB is the byte that represents the blue component.
+            AA is the byte that represents the alpha component.
+            </param>
+    </member>
+    <member name="M:GemBox.Imaging.Color.#ctor(System.Byte,System.Byte,System.Byte,System.Byte)">
+      <summary>
+            Initializes a new instance of the <see cref="T:GemBox.Imaging.Color" /> struct.
+            </summary>
+      <param name="red">The red component.</param>
+      <param name="green">The green component.</param>
+      <param name="blue">The blue component.</param>
+      <param name="alpha">The alpha component.</param>
+    </member>
+    <member name="M:GemBox.Imaging.Color.#ctor(System.Single,System.Single,System.Single,System.Single)">
+      <summary>
+            Initializes a new instance of the <see cref="T:GemBox.Imaging.Color" /> struct.
+            </summary>
+      <param name="red">The normalized red component.</param>
+      <param name="green">The normalized green component.</param>
+      <param name="blue">The normalized blue component.</param>
+      <param name="alpha">The normalized alpha component.</param>
+    </member>
+    <member name="P:GemBox.Imaging.Color.R">
+      <summary>
+            Gets the normalized red component of this <see cref="T:GemBox.Imaging.Color" /> instance.
+            </summary>
+      <value>
+            The normalized red component of this <see cref="T:GemBox.Imaging.Color" /> instance.
+            </value>
+    </member>
+    <member name="P:GemBox.Imaging.Color.G">
+      <summary>
+            Gets the normalized green component of this <see cref="T:GemBox.Imaging.Color" /> instance.
+            </summary>
+      <value>
+            The normalized green component of this <see cref="T:GemBox.Imaging.Color" /> instance.
+            </value>
+    </member>
+    <member name="P:GemBox.Imaging.Color.B">
+      <summary>
+            Gets the normalized blue component of this <see cref="T:GemBox.Imaging.Color" /> instance.
+            </summary>
+      <value>
+            The normalized blue component of this <see cref="T:GemBox.Imaging.Color" /> instance.
+            </value>
+    </member>
+    <member name="P:GemBox.Imaging.Color.IsEmpty">
+      <summary>
+            Gets a value indicating whether this <see cref="T:GemBox.Imaging.Color" /> instance is empty.
+            </summary>
+      <value>
+        <see langword="true" /> if this <see cref="T:GemBox.Imaging.Color" /> instance is empty; otherwise, <see langword="false" />.
+            </value>
+    </member>
+    <member name="M:GemBox.Imaging.Color.Equals(GemBox.Imaging.Color)">
+      <summary>
+            Determines whether <paramref name="other" /><see cref="T:GemBox.Imaging.Color" /> is equal to this <see cref="T:GemBox.Imaging.Color" /> instance.
+            </summary>
+      <param name="other">The other color to compare with this color instance.</param>
+      <returns>
+        <see langword="true" /> if the <paramref name="other" /><see cref="T:GemBox.Imaging.Color" /> is equal to this <see cref="T:GemBox.Imaging.Color" /> instance; otherwise, <see langword="false" />.</returns>
+    </member>
+    <member name="M:GemBox.Imaging.Color.Equals(System.Object)">
+      <summary>
+            Determines whether the specified <see cref="T:System.Object" /> is equal to this <see cref="T:GemBox.Imaging.Color" /> instance.
+            </summary>
+      <param name="obj">The <see cref="T:System.Object" /> to compare with this color instance.</param>
+      <returns>
+        <see langword="true" /> if the specified <see cref="T:System.Object" /> is a <see cref="T:GemBox.Imaging.Color" /> and is equal to this <see cref="T:GemBox.Imaging.Color" /> instance; otherwise, <see langword="false" />.
+            </returns>
+    </member>
+    <member name="M:GemBox.Imaging.Color.GetHashCode">
+      <summary>
+            Returns a hash code for this <see cref="T:GemBox.Imaging.Color" /> instance.
+            </summary>
+      <returns>
+            An integer value that specifies a hash value for this <see cref="T:GemBox.Imaging.Color" /> instance.
+            </returns>
+    </member>
+    <member name="M:GemBox.Imaging.Color.ToString">
+      <summary>
+            Returns a <see cref="T:System.String" /> that represents this <see cref="T:GemBox.Imaging.Color" /> instance.
+            </summary>
+      <returns>
+            A <see cref="T:System.String" /> that represents this <see cref="T:GemBox.Imaging.Color" /> instance.
+            </returns>
+    </member>
+    <member name="M:GemBox.Imaging.Color.op_Equality(GemBox.Imaging.Color,GemBox.Imaging.Color)">
+      <summary>
+            Determines whether two specified <see cref="T:GemBox.Imaging.Color" />s have the same value.
+            </summary>
+      <param name="first">The first color to compare.</param>
+      <param name="second">The second color to compare.</param>
+      <returns>
+        <see langword="true" /> if two specified <see cref="T:GemBox.Imaging.Color" />s have the same value; otherwise, <see langword="false" />.
+            </returns>
+    </member>
+    <member name="M:GemBox.Imaging.Color.op_Inequality(GemBox.Imaging.Color,GemBox.Imaging.Color)">
+      <summary>
+            Determines whether two specified <see cref="T:GemBox.Imaging.Color" />s have different values.
+            </summary>
+      <param name="first">The first color to compare.</param>
+      <param name="second">The second color to compare.</param>
+      <returns>
+        <see langword="true" /> if two specified <see cref="T:GemBox.Imaging.Color" />s have different values; otherwise, <see langword="false" />.
+            </returns>
+    </member>
+    <member name="T:GemBox.Imaging.ComponentInfo">
+      <summary>
+            Contains static licensing methods and diagnostic information about executing GemBox.Imaging assembly.
+            </summary>
+    </member>
+    <member name="E:GemBox.Imaging.ComponentInfo.FreeLimitReached">
+      <summary>
+            Occurs in loading or saving <see cref="T:GemBox.Imaging.Image" /> when GemBox.Imaging assembly is used with <b>FREE-LIMITED-KEY</b> license key, and the free limit is reached.
+            </summary>
+    </member>
+    <member name="P:GemBox.Imaging.ComponentInfo.InfoOut">
+      <summary>
+            Used for outputting information logs about GemBox.Imaging.
+            </summary>
+    </member>
+    <member name="P:GemBox.Imaging.ComponentInfo.Title">
+      <summary>
+            Gets GemBox.Imaging assembly title.
+            </summary>
+      <value>GemBox.Imaging assembly title.</value>
+    </member>
+    <member name="P:GemBox.Imaging.ComponentInfo.FullVersion">
+      <summary>
+            Gets GemBox.Imaging assembly full version.
+            </summary>
+      <value>GemBox.Imaging assembly full version.</value>
+    </member>
+    <member name="M:GemBox.Imaging.ComponentInfo.SetLicense(System.String)">
+      <summary>
+            Sets the license (serial) key.
+            </summary>
+      <param name="serialKey">The serial key.</param>
+      <remarks>
+        <para>You should call this method before using any other class from GemBox.Imaging assembly.</para>
+        <para>The key can only be set once (if you try another key, it will be ignored).</para>
+        <para>The best place to call this method is from a static constructor of your application's main class.</para>
+        <para>Valid serial key has multiple groups of alphanumeric characters, separated with dashes.</para>
+        <para>To use the assembly in free limited mode use, <b>FREE-LIMITED-KEY</b> as <paramref name="serialKey" />.</para>
+        <para>For more information about GemBox.Imaging evaluation and licensing, see <see href="https://www.gemboxsoftware.com/imaging/docs/evaluation-and-licensing.html" target="_self">evaluation and licensing</see>.</para>
+      </remarks>
+    </member>
+    <member name="T:GemBox.Imaging.FilterBuilder">
+      <summary>
+            Represents a builder for configuring an image or image frame filter.
+            </summary>
+    </member>
+    <member name="M:GemBox.Imaging.FilterBuilder.Red(System.Int32)">
+      <summary>
+            Sets the intensity of the red channel.
+            </summary>
+      <param name="intensity">An intensity value in a range from -100 (no red channel) to 100 (double red channel intensity).</param>
+    </member>
+    <member name="M:GemBox.Imaging.FilterBuilder.Green(System.Int32)">
+      <summary>
+            Sets the intensity of the green channel.
+            </summary>
+      <param name="intensity">An intensity value in a range from -100 (no green channel) to 100 (double green channel intensity).</param>
+    </member>
+    <member name="M:GemBox.Imaging.FilterBuilder.Blue(System.Int32)">
+      <summary>
+            Sets the intensity of the blue channel.
+            </summary>
+      <param name="intensity">An intensity value in a range from -100 (no blue channel) to 100 (double blue channel intensity).</param>
+    </member>
+    <member name="M:GemBox.Imaging.FilterBuilder.Alpha(System.Int32)">
+      <summary>
+            Sets the alpha channel.
+            </summary>
+      <param name="value">A transparency value in a range from 0 (no transparency) to 100 (full transparency).</param>
+    </member>
+    <member name="M:GemBox.Imaging.FilterBuilder.Brightness(System.Int32)">
+      <summary>
+            Sets the brightness.
+            </summary>
+      <param name="value">A brightness value in a range from -100 (full black) to 100 (full white).</param>
+    </member>
+    <member name="M:GemBox.Imaging.FilterBuilder.Contrast(System.Int32)">
+      <summary>
+            Sets the contrast.
+            </summary>
+      <param name="value">A contrast value in a range from -100 (full black) to 100 (full white).</param>
+    </member>
+    <member name="M:GemBox.Imaging.FilterBuilder.Hue(System.Int32)">
+      <summary>
+            Sets hue.
+            </summary>
+      <param name="value">A hue angle value between 0 and 360.</param>
+    </member>
+    <member name="M:GemBox.Imaging.FilterBuilder.Saturation(System.Int32)">
+      <summary>
+            Sets the saturation (chroma).
+            </summary>
+      <param name="amount">A saturation value in a range from -100 (grayscale) to 100 (fully saturated).</param>
+    </member>
+    <member name="T:GemBox.Imaging.FreeLimitEventArgs">
+      <summary>
+            Provides data for the <see cref="E:GemBox.Imaging.ComponentInfo.FreeLimitReached" /> event.
+            </summary>
+    </member>
+    <member name="P:GemBox.Imaging.FreeLimitEventArgs.FreeLimitReachedAction">
+      <summary>
+            Gets or sets the choice for proceeding when the free limit is reached.
+            </summary>
+      <value>
+            The choice for proceeding when the free limit is reached.
+            </value>
+    </member>
+    <member name="P:GemBox.Imaging.FreeLimitEventArgs.Image">
+      <summary>
+            Gets the image on which the limit was reached.
+            </summary>
+      <value>
+            The image on which the limit was reached.
+            </value>
+    </member>
+    <member name="T:GemBox.Imaging.FreeLimitReachedAction">
+      <summary>
+            Type of action that can be chosen when the free limit is reached.
+            </summary>
+    </member>
+    <member name="F:GemBox.Imaging.FreeLimitReachedAction.ThrowException">
+      <summary>
+            Throw <see cref="T:GemBox.Imaging.FreeLimitReachedException" />.
+            </summary>
+    </member>
+    <member name="F:GemBox.Imaging.FreeLimitReachedAction.Stop">
+      <summary>
+            Stop reading/writing.
+            </summary>
+    </member>
+    <member name="F:GemBox.Imaging.FreeLimitReachedAction.ContinueAsTrial">
+      <summary>
+            Continue reading/writing using trial mode.
+            </summary>
+    </member>
+    <member name="T:GemBox.Imaging.FreeLimitReachedException">
+      <summary>
+            Exception that occurs when the free limit is reached.
+            </summary>
+    </member>
+    <member name="T:GemBox.Imaging.Gif.GifColorTableMode">
+      <summary>
+            Describes the available color table calculation modes.
+            </summary>
+    </member>
+    <member name="F:GemBox.Imaging.Gif.GifColorTableMode.Global">
+      <summary>
+            A single color table will be calculated from the first frame and reused for subsequent frames.
+            </summary>
+    </member>
+    <member name="F:GemBox.Imaging.Gif.GifColorTableMode.Local">
+      <summary>
+            A unique color table will be calculated for each frame.
+            </summary>
+    </member>
+    <member name="T:GemBox.Imaging.Gif.GifDisposalMethod">
+      <summary>
+            Describes the Gif decoder disposal method.
+            </summary>
+    </member>
+    <member name="F:GemBox.Imaging.Gif.GifDisposalMethod.Unspecified">
+      <summary>
+            The decoder will not take any action.
+            </summary>
+    </member>
+    <member name="F:GemBox.Imaging.Gif.GifDisposalMethod.NotDispose">
+      <summary>
+            The graphic will be left in place.
+            </summary>
+    </member>
+    <member name="F:GemBox.Imaging.Gif.GifDisposalMethod.RestoreToBackground">
+      <summary>
+            The area used by the graphic will be restored to the background color.
+            </summary>
+    </member>
+    <member name="F:GemBox.Imaging.Gif.GifDisposalMethod.RestoreToPrevious">
+      <summary>
+            The decoder will restore the area overwritten by the graphic with what was there prior to rendering the graphic.
+            </summary>
+    </member>
+    <member name="T:GemBox.Imaging.Gif.GifFrameMetadata">
+      <summary>
+            Represents the metadata of a frame in a GIF image.
+            </summary>
+    </member>
+    <member name="P:GemBox.Imaging.Gif.GifFrameMetadata.FrameDelay">
+      <summary>
+            Gets or sets the frame delay for animated images.
+            </summary>
+      <remarks>
+            If not 0, when utilized in Gif animation, this field specifies a time to wait before continuing with the processing of the data stream.
+            The clock starts ticking immediately after the graphic is rendered.
+            </remarks>
+    </member>
+    <member name="M:GemBox.Imaging.Gif.GifFrameMetadata.Clone">
+      <summary>
+            Creates a new <see cref="T:GemBox.Imaging.Gif.GifFrameMetadata" /> that is a copy of the current instance.
+            </summary>
+      <returns>
+            A new <see cref="T:GemBox.Imaging.Gif.GifFrameMetadata" /> that is a copy of this instance.
+            </returns>
+    </member>
+    <member name="T:GemBox.Imaging.Gif.GifMetadata">
+      <summary>
+            Represents a GIF format specific metadata.
+            </summary>
+    </member>
+    <member name="P:GemBox.Imaging.Gif.GifMetadata.RepeatCount">
+      <summary>
+            Gets or sets the number of times any animation is repeated.
+            <remarks>
+            0 means to repeat indefinitely, count is set as repeat n-1 times. Defaults to 1.
+            </remarks></summary>
+    </member>
+    <member name="M:GemBox.Imaging.Gif.GifMetadata.Clone">
+      <summary>
+            Creates a new <see cref="T:GemBox.Imaging.Gif.GifMetadata" /> that is a copy of the current instance.
+            </summary>
+      <returns>
+            A new <see cref="T:GemBox.Imaging.Gif.GifMetadata" /> that is a copy of this instance.
+            </returns>
+    </member>
+    <member name="T:GemBox.Imaging.Gif.GifSaveOptions">
+      <summary>
+            Represents a class which stores saving options for GIF file format.
+            </summary>
+      <remarks>
+      </remarks>
+      <seealso cref="P:GemBox.Imaging.SaveOptions.GifDefault" />
+      <seealso cref="M:GemBox.Imaging.Image.Save(System.String,GemBox.Imaging.SaveOptions)" />
+      <seealso cref="M:GemBox.Imaging.Image.Save(System.IO.Stream,GemBox.Imaging.SaveOptions)" />
+    </member>
+    <member name="T:GemBox.Imaging.Image">
+      <summary>
+            Represents an image that consists of the pixels data and its attributes.
+            </summary>
+    </member>
+    <member name="P:GemBox.Imaging.Image.Frames">
+      <summary>
+            Gets the image frames contained in the image.
+            </summary>
+      <value>
+            The image frames contained in the image.
+            </value>
+    </member>
+    <member name="P:GemBox.Imaging.Image.Metadata">
+      <summary>
+            Gets the metadata associated with the image.
+            </summary>
+      <value>
+            The metadata associated with the image.
+            </value>
+    </member>
+    <member name="M:GemBox.Imaging.Image.#ctor(System.Collections.Generic.IEnumerable{GemBox.Imaging.ImageFrame})">
+      <summary>
+            Initializes a new instance of the <see cref="T:GemBox.Imaging.Image" /> class with a specified collection of image frames.
+            </summary>
+      <param name="frames">A list containing the frames to be included in the image.</param>
+    </member>
+    <member name="M:GemBox.Imaging.Image.#ctor(GemBox.Imaging.ImageFrame,GemBox.Imaging.ImageFrame[])">
+      <summary>
+            Initializes a new instance of the <see cref="T:GemBox.Imaging.Image" /> class with a specified collection of image frames.
+            </summary>
+      <param name="frame">The first frame to be included in the image.</param>
+      <param name="frames">A list containing the frames to be included in the image.</param>
+    </member>
+    <member name="M:GemBox.Imaging.Image.#ctor(System.Collections.Generic.IEnumerable{GemBox.Imaging.Image},System.Boolean)">
+      <summary>
+            Initializes a new instance of the <see cref="T:GemBox.Imaging.Image" /> class with a specified collection of image frames.
+            </summary>
+      <param name="images">A list containing the images that contain frames to be included in the image.</param>
+      <param name="disposeImagesAfterLoading">Disposes the given images after loading of frames are completed. In doing so this prevents loading all images till the end and handles memory more efficiently.</param>
+    </member>
+    <member name="M:GemBox.Imaging.Image.#ctor(GemBox.Imaging.Image,GemBox.Imaging.Image[])">
+      <summary>
+            Initializes a new instance of the <see cref="T:GemBox.Imaging.Image" /> class with a specified collection of image frames.
+            </summary>
+      <param name="image">The first image that contain frames to be included in the image.</param>
+      <param name="images">A list containing the images that contain frames to be included in the image.</param>
+    </member>
+    <member name="P:GemBox.Imaging.Image.Width">
+      <summary>
+            Gets the width of the image in pixels.
+            </summary>
+      <value>
+            The width of the image in pixels.
+            </value>
+    </member>
+    <member name="P:GemBox.Imaging.Image.Height">
+      <summary>
+            Gets the height of the image in pixels.
+            </summary>
+      <value>
+            The height of the image in pixels.
+            </value>
+    </member>
+    <member name="P:GemBox.Imaging.Image.DpiX">
+      <summary>
+            Gets the horizontal dots per inch (dpi) of the image or <see cref="F:System.Double.NaN" />.
+            </summary>
+      <value>
+            The horizontal dots per inch (dpi) of the image; that is, the dots per inch (dpi) along the x-axis.
+            </value>
+    </member>
+    <member name="P:GemBox.Imaging.Image.DpiY">
+      <summary>
+            Gets the vertical dots per inch (dpi) of the image or <see cref="F:System.Double.NaN" />.
+            </summary>
+      <value>
+            The vertical dots per inch (dpi) of the image; that is, the dots per inch (dpi) along the y-axis.
+            </value>
+    </member>
+    <member name="M:GemBox.Imaging.Image.ApplyFilter(System.Action{GemBox.Imaging.FilterBuilder})">
+      <summary>
+            Applies a filter.
+            </summary>
+      <param name="configureFilter">A delegate to configure the filter.</param>
+    </member>
+    <member name="M:GemBox.Imaging.Image.Load(System.String)">
+      <summary>
+            Loads an image from a file with the specified path.
+            </summary>
+      <param name="path">The file path from which to load an image.</param>
+      <returns>A loaded image.</returns>
+      <exception cref="T:System.ArgumentNullException">
+        <paramref name="path" /> is <see langword="null" />.</exception>
+    </member>
+    <member name="M:GemBox.Imaging.Image.Load(System.IO.Stream)">
+      <summary>
+            Loads an image from the specified stream.
+            </summary>
+      <param name="stream">The stream from which to load an image.</param>
+      <returns>A loaded image.</returns>
+      <exception cref="T:System.ArgumentNullException">
+        <paramref name="stream" /> is <see langword="null" />.</exception>
+    </member>
+    <member name="M:GemBox.Imaging.Image.Save(System.String)">
+      <summary>
+        <para>Saves the image to the specified file path.</para>
+      </summary>
+      <param name="path">The file path to which to save the image.</param>
+      <exception cref="T:System.ArgumentNullException">
+        <paramref name="path" /> is <see langword="null" />.</exception>
+    </member>
+    <member name="M:GemBox.Imaging.Image.Save(System.String,GemBox.Imaging.ImageFileFormat)">
+      <summary>
+        <para>Saves the image to the specified file path.</para>
+      </summary>
+      <param name="path">The file path in which to save the image.</param>
+      <param name="fileFormat">The file format in which to save the image.</param>
+      <exception cref="T:System.ArgumentNullException">
+        <paramref name="path" /> is <see langword="null" />.</exception>
+    </member>
+    <member name="M:GemBox.Imaging.Image.Save(System.String,GemBox.Imaging.SaveOptions)">
+      <summary>
+        <para>Saves the image to the specified file path.</para>
+      </summary>
+      <param name="path">The file path in which to save the image.</param>
+      <param name="options">The saving options which can be used to define settings for save operation.</param>
+      <exception cref="T:System.ArgumentNullException">
+        <paramref name="path" /> is <see langword="null" />.</exception>
+    </member>
+    <member name="M:GemBox.Imaging.Image.Save(System.IO.Stream,GemBox.Imaging.ImageFileFormat)">
+      <summary>
+        <para>Saves the image to the specified stream with the given file format.</para>
+      </summary>
+      <param name="stream">The stream in which to save the image.</param>
+      <param name="fileFormat">The file format in which to save the image.</param>
+      <exception cref="T:System.ArgumentNullException">
+        <paramref name="stream" /> is <see langword="null" />.</exception>
+    </member>
+    <member name="M:GemBox.Imaging.Image.Save(System.IO.Stream,GemBox.Imaging.SaveOptions)">
+      <summary>
+        <para>Saves the image to the specified stream.</para>
+      </summary>
+      <param name="stream">The stream in which to save the image.</param>
+      <param name="options">The saving options which can be used to define settings for save operation.</param>
+      <exception cref="T:System.ArgumentNullException">
+        <paramref name="stream" /> or <paramref name="options" /> is <see langword="null" />.</exception>
+    </member>
+    <member name="M:GemBox.Imaging.Image.Resize(System.Nullable{System.Int32},System.Nullable{System.Int32})">
+      <summary>
+            Resizes the image to the given size.
+            </summary>
+      <param name="width">Target width of the resulting image. If <see langword="null" /> then this will be calculated by aspect ratio.</param>
+      <param name="height">Target height of the resulting image. If <see langword="null" /> then this will be calculated by aspect ratio.</param>
+      <exception cref="T:System.ArgumentNullException">Thrown when <paramref name="width" /> and <paramref name="height" /> are both null.</exception>
+    </member>
+    <member name="M:GemBox.Imaging.Image.Crop(System.Int32,System.Int32,System.Int32,System.Int32)">
+      <summary>
+            Crops the image to the given position and size.
+            </summary>
+      <param name="x">The horizontal position of cropping.</param>
+      <param name="y">The vertical position of cropping.</param>
+      <param name="width">Width of the crop area.</param>
+      <param name="height">Height of the crop area.</param>
+    </member>
+    <member name="M:GemBox.Imaging.Image.RotateFlip(GemBox.Imaging.RotateFlipType)">
+      <summary>
+            Rotates and flips the image by the given enum.
+            </summary>
+      <param name="rotateFlipType">The rotate flip type to perform rotation and flipping.</param>
+    </member>
+    <member name="M:GemBox.Imaging.Image.Dispose">
+      <summary>
+            Releases all resources used by the image.
+            </summary>
+    </member>
+    <member name="T:GemBox.Imaging.ImageFileFormat">
+      <summary>
+            Specifies image file formats.
+            </summary>
+    </member>
+    <member name="F:GemBox.Imaging.ImageFileFormat.Unknown">
+      <summary>
+            The format of the encoded image is unknown.
+            </summary>
+    </member>
+    <member name="F:GemBox.Imaging.ImageFileFormat.Png">
+      <summary>
+            The Portable Network Graphics (PNG) format.
+            </summary>
+    </member>
+    <member name="F:GemBox.Imaging.ImageFileFormat.Jpeg">
+      <summary>
+            The Joint Photographic Experts Group (JPEG) format.
+            </summary>
+    </member>
+    <member name="F:GemBox.Imaging.ImageFileFormat.Gif">
+      <summary>
+            The Graphics Interchange Format (GIF).
+            </summary>
+    </member>
+    <member name="F:GemBox.Imaging.ImageFileFormat.Tiff">
+      <summary>
+            The Tagged Image File Format (TIFF).
+            </summary>
+    </member>
+    <member name="T:GemBox.Imaging.ImageFrame">
+      <summary>
+            Represents an image frame.
+            </summary>
+    </member>
+    <member name="P:GemBox.Imaging.ImageFrame.Metadata">
+      <summary>
+            Gets the metadata of the frame.
+            </summary>
+      <value>
+            The metadata of the frame.
+            </value>
+    </member>
+    <member name="P:GemBox.Imaging.ImageFrame.Width">
+      <summary>
+            Gets the width of the frame in pixels.
+            </summary>
+      <value>
+            The width of the frame in pixels.
+            </value>
+    </member>
+    <member name="P:GemBox.Imaging.ImageFrame.Height">
+      <summary>
+            Gets the height of the frame in pixels.
+            </summary>
+      <value>
+            The height of the frame in pixels.
+            </value>
+    </member>
+    <member name="P:GemBox.Imaging.ImageFrame.DpiX">
+      <summary>
+            Gets the horizontal dots per inch (dpi) of the frame or <see cref="F:System.Double.NaN" />.
+            </summary>
+      <value>
+            The horizontal dots per inch (dpi) of the frame; that is, the dots per inch (dpi) along the x-axis.
+            </value>
+    </member>
+    <member name="P:GemBox.Imaging.ImageFrame.DpiY">
+      <summary>
+            Gets the vertical dots per inch (dpi) of the frame or <see cref="F:System.Double.NaN" />.
+            </summary>
+      <value>
+            The vertical dots per inch (dpi) of the frame; that is, the dots per inch (dpi) along the y-axis.
+            </value>
+    </member>
+    <member name="M:GemBox.Imaging.ImageFrame.Dispose">
+      <summary>
+            Releases all resources used by the frame.
+            </summary>
+    </member>
+    <member name="M:GemBox.Imaging.ImageFrame.ApplyFilter(System.Action{GemBox.Imaging.FilterBuilder})">
+      <summary>
+            Applies a filter.
+            </summary>
+      <param name="configureFilter">A delegate to configure the filter.</param>
+    </member>
+    <member name="M:GemBox.Imaging.ImageFrame.Crop(System.Int32,System.Int32,System.Int32,System.Int32)">
+      <summary>
+            Crops the image to the given position and size.
+            </summary>
+      <param name="x">The horizontal position of cropping.</param>
+      <param name="y">The vertical position of cropping.</param>
+      <param name="width">Width of the crop area.</param>
+      <param name="height">Height of the crop area.</param>
+    </member>
+    <member name="M:GemBox.Imaging.ImageFrame.Resize(System.Nullable{System.Int32},System.Nullable{System.Int32})">
+      <summary>
+            Resizes the frame to the given size.
+            </summary>
+      <param name="width">Target width of the resulting frame. If <see langword="null" /> then this will be calculated by aspect ratio.</param>
+      <param name="height">Target height of the resulting frame. If <see langword="null" /> then this will be calculated by aspect ratio.</param>
+      <exception cref="T:System.ArgumentNullException">Thrown when <paramref name="width" /> and <paramref name="height" /> are both null.</exception>
+    </member>
+    <member name="M:GemBox.Imaging.ImageFrame.RotateFlip(GemBox.Imaging.RotateFlipType)">
+      <summary>
+            Rotates and flips the frame by the given enum.
+            </summary>
+      <param name="rotateFlipType">The rotate flip type to perform rotation and flipping.</param>
+    </member>
+    <member name="T:GemBox.Imaging.ImageFrameCollection">
+      <summary>
+            Represents either a single, constant set of pixels at a specific size and resolution (raster image) or a set of drawing commands (vector image).
+            </summary>
+    </member>
+    <member name="P:GemBox.Imaging.ImageFrameCollection.Count">
+      <inheritdoc />
+    </member>
+    <member name="P:GemBox.Imaging.ImageFrameCollection.IsReadOnly">
+      <inheritdoc />
+    </member>
+    <member name="P:GemBox.Imaging.ImageFrameCollection.Item(System.Int32)">
+      <inheritdoc />
+    </member>
+    <member name="M:GemBox.Imaging.ImageFrameCollection.IndexOf(GemBox.Imaging.ImageFrame)">
+      <inheritdoc />
+    </member>
+    <member name="M:GemBox.Imaging.ImageFrameCollection.Insert(System.Int32,GemBox.Imaging.ImageFrame)">
+      <inheritdoc />
+    </member>
+    <member name="M:GemBox.Imaging.ImageFrameCollection.RemoveAt(System.Int32)">
+      <inheritdoc />
+    </member>
+    <member name="M:GemBox.Imaging.ImageFrameCollection.Add(GemBox.Imaging.ImageFrame)">
+      <inheritdoc />
+    </member>
+    <member name="M:GemBox.Imaging.ImageFrameCollection.Clear">
+      <inheritdoc />
+    </member>
+    <member name="M:GemBox.Imaging.ImageFrameCollection.Contains(GemBox.Imaging.ImageFrame)">
+      <inheritdoc />
+    </member>
+    <member name="M:GemBox.Imaging.ImageFrameCollection.CopyTo(GemBox.Imaging.ImageFrame[],System.Int32)">
+      <inheritdoc />
+    </member>
+    <member name="M:GemBox.Imaging.ImageFrameCollection.Remove(GemBox.Imaging.ImageFrame)">
+      <inheritdoc />
+    </member>
+    <member name="M:GemBox.Imaging.ImageFrameCollection.GetEnumerator">
+      <inheritdoc />
+    </member>
+    <member name="T:GemBox.Imaging.ImageFrameMetadata">
+      <summary>
+            Represents an image frame metadata.
+            </summary>
+    </member>
+    <member name="P:GemBox.Imaging.ImageFrameMetadata.Gif">
+      <summary>
+            Gets the GIF format specific metadata.
+            </summary>
+      <value>
+            The GIF format specific metadata.
+            </value>
+    </member>
+    <member name="M:GemBox.Imaging.ImageFrameMetadata.Clone">
+      <summary>
+            Creates a new <see cref="T:GemBox.Imaging.ImageFrameMetadata" /> that is a copy of the current instance.
+            </summary>
+      <returns>
+            A new <see cref="T:GemBox.Imaging.ImageFrameMetadata" /> that is a copy of this instance.
+            </returns>
+    </member>
+    <member name="T:GemBox.Imaging.ImageMetadata">
+      <summary>
+            Represents an image metadata.
+            </summary>
+    </member>
+    <member name="P:GemBox.Imaging.ImageMetadata.Gif">
+      <summary>
+            Gets the GIF format specific metadata.
+            </summary>
+      <value>
+            The GIF format specific metadata.
+            </value>
+    </member>
+    <member name="M:GemBox.Imaging.ImageMetadata.Clone">
+      <summary>
+            Creates a new <see cref="T:GemBox.Imaging.ImageMetadata" /> that is a copy of the current instance.
+            </summary>
+      <returns>
+            A new <see cref="T:GemBox.Imaging.ImageMetadata" /> that is a copy of this instance.
+            </returns>
+    </member>
+    <member name="T:GemBox.Imaging.JpegSaveOptions">
+      <summary>
+            Represents a class which stores saving options for JPEG file format.
+            </summary>
+      <remarks>
+      </remarks>
+      <seealso cref="P:GemBox.Imaging.SaveOptions.JpegDefault" />
+      <seealso cref="M:GemBox.Imaging.Image.Save(System.String,GemBox.Imaging.SaveOptions)" />
+      <seealso cref="M:GemBox.Imaging.Image.Save(System.IO.Stream,GemBox.Imaging.SaveOptions)" />
+    </member>
+    <member name="P:GemBox.Imaging.JpegSaveOptions.Fill">
+      <summary>
+            Gets or sets the fill color for transparent images.
+            </summary>
+      <value>
+            The fill color for transparent images.
+            </value>
+      <remarks>
+            If image doesn't have any transparency this will be ignored.
+            </remarks>
+    </member>
+    <member name="T:GemBox.Imaging.LicenseException">
+      <summary>
+            Exception that occurs when licensing information is not correctly specified.
+            </summary>
+    </member>
+    <member name="T:GemBox.Imaging.PngSaveOptions">
+      <summary>
+            Represents a class which stores saving options for PNG file format.
+            </summary>
+      <remarks>
+      </remarks>
+      <seealso cref="P:GemBox.Imaging.SaveOptions.PngDefault" />
+      <seealso cref="M:GemBox.Imaging.Image.Save(System.String,GemBox.Imaging.SaveOptions)" />
+      <seealso cref="M:GemBox.Imaging.Image.Save(System.IO.Stream,GemBox.Imaging.SaveOptions)" />
+    </member>
+    <member name="T:GemBox.Imaging.RotateFlipType">
+      <summary>
+            Specifies image rotation angle and flip axis combinations.
+            </summary>
+    </member>
+    <member name="F:GemBox.Imaging.RotateFlipType.Rotate180FlipXY">
+      <summary>
+            Specifies a 180-degree clockwise rotation followed by a horizontal and vertical flip.
+            </summary>
+    </member>
+    <member name="F:GemBox.Imaging.RotateFlipType.RotateNoneFlipNone">
+      <summary>
+            Specifies no clockwise rotation and no flipping.
+            </summary>
+    </member>
+    <member name="F:GemBox.Imaging.RotateFlipType.Rotate270FlipXY">
+      <summary>
+            Specifies a 270-degree clockwise rotation followed by a horizontal and vertical flip.
+            </summary>
+    </member>
+    <member name="F:GemBox.Imaging.RotateFlipType.Rotate90FlipNone">
+      <summary>
+            Specifies a 90-degree clockwise rotation without flipping.
+            </summary>
+    </member>
+    <member name="F:GemBox.Imaging.RotateFlipType.Rotate180FlipNone">
+      <summary>
+            Specifies a 180-degree clockwise rotation without flipping.
+            </summary>
+    </member>
+    <member name="F:GemBox.Imaging.RotateFlipType.RotateNoneFlipXY">
+      <summary>
+            Specifies no clockwise rotation followed by a horizontal and vertical flip.
+            </summary>
+    </member>
+    <member name="F:GemBox.Imaging.RotateFlipType.Rotate270FlipNone">
+      <summary>
+            Specifies a 270-degree clockwise rotation without flipping.
+            </summary>
+    </member>
+    <member name="F:GemBox.Imaging.RotateFlipType.Rotate90FlipXY">
+      <summary>
+            Specifies a 90-degree clockwise rotation followed by a horizontal and vertical flip.
+            </summary>
+    </member>
+    <member name="F:GemBox.Imaging.RotateFlipType.Rotate180FlipY">
+      <summary>
+            Specifies a 180-degree clockwise rotation followed by a vertical flip.
+            </summary>
+    </member>
+    <member name="F:GemBox.Imaging.RotateFlipType.RotateNoneFlipX">
+      <summary>
+            Specifies no clockwise rotation followed by a horizontal flip.
+            </summary>
+    </member>
+    <member name="F:GemBox.Imaging.RotateFlipType.Rotate270FlipY">
+      <summary>
+            Specifies a 270-degree clockwise rotation followed by a vertical flip.
+            </summary>
+    </member>
+    <member name="F:GemBox.Imaging.RotateFlipType.Rotate90FlipX">
+      <summary>
+            Specifies a 90-degree clockwise rotation followed by a horizontal flip.
+            </summary>
+    </member>
+    <member name="F:GemBox.Imaging.RotateFlipType.Rotate180FlipX">
+      <summary>
+            Specifies a 180-degree clockwise rotation followed by a horizontal flip.
+            </summary>
+    </member>
+    <member name="F:GemBox.Imaging.RotateFlipType.RotateNoneFlipY">
+      <summary>
+            Specifies no clockwise rotation followed by a vertical flip.
+            </summary>
+    </member>
+    <member name="F:GemBox.Imaging.RotateFlipType.Rotate270FlipX">
+      <summary>
+            Specifies a 270-degree clockwise rotation followed by a horizontal flip.
+            </summary>
+    </member>
+    <member name="F:GemBox.Imaging.RotateFlipType.Rotate90FlipY">
+      <summary>
+            Specifies a 90-degree clockwise rotation followed by a vertical flip.
+            </summary>
+    </member>
+    <member name="T:GemBox.Imaging.SaveOptions">
+      <summary>
+            Represents a base class for saving options of various image file formats.
+            </summary>
+      <seealso cref="M:GemBox.Imaging.Image.Save(System.String)">Image.Save methods</seealso>
+    </member>
+    <member name="P:GemBox.Imaging.SaveOptions.GifDefault">
+      <summary>
+            Gets the default saving options for GIF image file format.
+            </summary>
+      <value>
+            The default saving options for GIF image file format.
+            </value>
+      <remarks>
+            This property always returns a new instance of <see cref="T:GemBox.Imaging.Gif.GifSaveOptions" /> class initialized with default constructor.
+            </remarks>
+    </member>
+    <member name="P:GemBox.Imaging.SaveOptions.JpegDefault">
+      <summary>
+            Gets the default saving options for JPEG image file format.
+            </summary>
+      <value>
+            The default saving options for JPEG image file format.
+            </value>
+      <remarks>
+            This property always returns a new instance of <see cref="T:GemBox.Imaging.JpegSaveOptions" /> class initialized with default constructor.
+            </remarks>
+    </member>
+    <member name="P:GemBox.Imaging.SaveOptions.PngDefault">
+      <summary>
+            Gets the default saving options for PNG image file format.
+            </summary>
+      <value>
+            The default saving options for PNG image file format.
+            </value>
+      <remarks>
+            This property always returns a new instance of <see cref="T:GemBox.Imaging.PngSaveOptions" /> class initialized with default constructor.
+            </remarks>
+    </member>
+    <member name="P:GemBox.Imaging.SaveOptions.TiffDefault">
+      <summary>
+            Gets the default saving options for TIFF image file format.
+            </summary>
+      <value>
+            The default saving options for TIFF image file format.
+            </value>
+      <remarks>
+            This property always returns a new instance of <see cref="T:GemBox.Imaging.TiffSaveOptions" /> class initialized with default constructor.
+            </remarks>
+    </member>
+    <member name="T:GemBox.Imaging.TiffCompression">
+      <summary>
+            Specifies the possible compression schemes for Tagged Image File Format (TIFF) bitmap images.
+            </summary>
+    </member>
+    <member name="F:GemBox.Imaging.TiffCompression.Default">
+      <summary>
+            The System.Windows.Media.Imaging.TiffBitmapEncoder encoder attempts to save the bitmap with the best possible compression schema.
+            </summary>
+    </member>
+    <member name="F:GemBox.Imaging.TiffCompression.None">
+      <summary>
+            The Tagged Image File Format (TIFF) image is not compressed.
+            </summary>
+    </member>
+    <member name="F:GemBox.Imaging.TiffCompression.CcittGroup3Fax">
+      <summary>
+            The CCITT3 compression schema is used.
+            </summary>
+    </member>
+    <member name="F:GemBox.Imaging.TiffCompression.CcittGroup4Fax">
+      <summary>
+            The CCITT4 compression schema is used.
+            </summary>
+    </member>
+    <member name="F:GemBox.Imaging.TiffCompression.Lzw">
+      <summary>
+            The LZW compression schema is used.
+            </summary>
+    </member>
+    <member name="F:GemBox.Imaging.TiffCompression.Rle">
+      <summary>
+            The RLE compression schema is used.
+            </summary>
+    </member>
+    <member name="F:GemBox.Imaging.TiffCompression.Zip">
+      <summary>
+            Zip compression schema is used.
+            </summary>
+    </member>
+    <member name="T:GemBox.Imaging.TiffSaveOptions">
+      <summary>
+            Represents a class which stores saving options for TIF file format.
+            </summary>
+      <remarks>
+      </remarks>
+      <seealso cref="P:GemBox.Imaging.SaveOptions.TiffDefault" />
+      <seealso cref="M:GemBox.Imaging.Image.Save(System.String,GemBox.Imaging.SaveOptions)" />
+      <seealso cref="M:GemBox.Imaging.Image.Save(System.IO.Stream,GemBox.Imaging.SaveOptions)" />
+    </member>
+    <member name="P:GemBox.Imaging.TiffSaveOptions.Compression">
+      <summary>
+            Gets or sets a value that indicates the type of compression that is used by this Tagged Image File Format (TIFF) image.
+            </summary>
+      <returns>
+            One of the <see cref="T:GemBox.Imaging.TiffCompression" /> values. The default is <see cref="F:GemBox.Imaging.TiffCompression.Default" />.
+            </returns>
+    </member>
+  </members>
+</doc>
