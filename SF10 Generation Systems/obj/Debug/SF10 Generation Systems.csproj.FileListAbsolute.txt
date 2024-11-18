@@ -221,3 +221,85 @@ E:\AAA  Important\dotNetWorkspace\Projects\Csharp\SF10 Generation Systems\SF10 G
 E:\AAA  Important\dotNetWorkspace\Projects\Csharp\SF10 Generation Systems\SF10 Generation Systems\obj\Debug\SF10_Generation_Systems.frmMain.resources
 E:\AAA  Important\dotNetWorkspace\Projects\Csharp\SF10 Generation Systems\SF10 Generation Systems\obj\Debug\SF10 Generation Systems.csproj.AssemblyReference.cache
 E:\AAA  Important\dotNetWorkspace\Projects\Csharp\SF10 Generation Systems\SF10 Generation Systems\obj\Debug\SF10_Generation_Systems.Selector.resources
+C:\Users\Zed\Documents\GitHub\SF10-Generation-System\SF10 Generation Systems\bin\Debug\libHarfBuzzSharp.dylib
+C:\Users\Zed\Documents\GitHub\SF10-Generation-System\SF10 Generation Systems\bin\Debug\x86\libHarfBuzzSharp.dll
+C:\Users\Zed\Documents\GitHub\SF10-Generation-System\SF10 Generation Systems\bin\Debug\x64\libHarfBuzzSharp.dll
+C:\Users\Zed\Documents\GitHub\SF10-Generation-System\SF10 Generation Systems\bin\Debug\arm64\libHarfBuzzSharp.dll
+C:\Users\Zed\Documents\GitHub\SF10-Generation-System\SF10 Generation Systems\bin\Debug\libSkiaSharp.dylib
+C:\Users\Zed\Documents\GitHub\SF10-Generation-System\SF10 Generation Systems\bin\Debug\x86\libSkiaSharp.dll
+C:\Users\Zed\Documents\GitHub\SF10-Generation-System\SF10 Generation Systems\bin\Debug\x64\libSkiaSharp.dll
+C:\Users\Zed\Documents\GitHub\SF10-Generation-System\SF10 Generation Systems\bin\Debug\arm64\libSkiaSharp.dll
+C:\Users\Zed\Documents\GitHub\SF10-Generation-System\SF10 Generation Systems\bin\Debug\x64\libSkiaSharp.so
+C:\Users\Zed\Documents\GitHub\SF10-Generation-System\SF10 Generation Systems\bin\Debug\arm\libSkiaSharp.so
+C:\Users\Zed\Documents\GitHub\SF10-Generation-System\SF10 Generation Systems\bin\Debug\arm64\libSkiaSharp.so
+C:\Users\Zed\Documents\GitHub\SF10-Generation-System\SF10 Generation Systems\bin\Debug\musl-x64\libSkiaSharp.so
+C:\Users\Zed\Documents\GitHub\SF10-Generation-System\SF10 Generation Systems\bin\Debug\SF10 Generation Systems.exe.config
+C:\Users\Zed\Documents\GitHub\SF10-Generation-System\SF10 Generation Systems\bin\Debug\SF10 Generation Systems.exe
+C:\Users\Zed\Documents\GitHub\SF10-Generation-System\SF10 Generation Systems\bin\Debug\SF10 Generation Systems.pdb
+C:\Users\Zed\Documents\GitHub\SF10-Generation-System\SF10 Generation Systems\bin\Debug\BouncyCastle.Cryptography.dll
+C:\Users\Zed\Documents\GitHub\SF10-Generation-System\SF10 Generation Systems\bin\Debug\GemBox.Document.dll
+C:\Users\Zed\Documents\GitHub\SF10-Generation-System\SF10 Generation Systems\bin\Debug\GemBox.Email.dll
+C:\Users\Zed\Documents\GitHub\SF10-Generation-System\SF10 Generation Systems\bin\Debug\GemBox.Imaging.dll
+C:\Users\Zed\Documents\GitHub\SF10-Generation-System\SF10 Generation Systems\bin\Debug\GemBox.Pdf.dll
+C:\Users\Zed\Documents\GitHub\SF10-Generation-System\SF10 Generation Systems\bin\Debug\GemBox.Presentation.dll
+C:\Users\Zed\Documents\GitHub\SF10-Generation-System\SF10 Generation Systems\bin\Debug\GemBox.Spreadsheet.dll
+C:\Users\Zed\Documents\GitHub\SF10-Generation-System\SF10 Generation Systems\bin\Debug\HarfBuzzSharp.dll
+C:\Users\Zed\Documents\GitHub\SF10-Generation-System\SF10 Generation Systems\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\Zed\Documents\GitHub\SF10-Generation-System\SF10 Generation Systems\bin\Debug\OpenTK.dll
+C:\Users\Zed\Documents\GitHub\SF10-Generation-System\SF10 Generation Systems\bin\Debug\OpenTK.GLControl.dll
+C:\Users\Zed\Documents\GitHub\SF10-Generation-System\SF10 Generation Systems\bin\Debug\Pkcs11Interop.dll
+C:\Users\Zed\Documents\GitHub\SF10-Generation-System\SF10 Generation Systems\bin\Debug\ScottPlot.dll
+C:\Users\Zed\Documents\GitHub\SF10-Generation-System\SF10 Generation Systems\bin\Debug\ScottPlot.WinForms.dll
+C:\Users\Zed\Documents\GitHub\SF10-Generation-System\SF10 Generation Systems\bin\Debug\SkiaSharp.dll
+C:\Users\Zed\Documents\GitHub\SF10-Generation-System\SF10 Generation Systems\bin\Debug\SkiaSharp.Views.Desktop.Common.dll
+C:\Users\Zed\Documents\GitHub\SF10-Generation-System\SF10 Generation Systems\bin\Debug\SkiaSharp.Views.WindowsForms.dll
+C:\Users\Zed\Documents\GitHub\SF10-Generation-System\SF10 Generation Systems\bin\Debug\System.Buffers.dll
+C:\Users\Zed\Documents\GitHub\SF10-Generation-System\SF10 Generation Systems\bin\Debug\System.Drawing.Common.dll
+C:\Users\Zed\Documents\GitHub\SF10-Generation-System\SF10 Generation Systems\bin\Debug\System.Memory.dll
+C:\Users\Zed\Documents\GitHub\SF10-Generation-System\SF10 Generation Systems\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\Zed\Documents\GitHub\SF10-Generation-System\SF10 Generation Systems\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\Zed\Documents\GitHub\SF10-Generation-System\SF10 Generation Systems\bin\Debug\System.Text.Encodings.Web.dll
+C:\Users\Zed\Documents\GitHub\SF10-Generation-System\SF10 Generation Systems\bin\Debug\System.Text.Json.dll
+C:\Users\Zed\Documents\GitHub\SF10-Generation-System\SF10 Generation Systems\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\Zed\Documents\GitHub\SF10-Generation-System\SF10 Generation Systems\bin\Debug\System.ValueTuple.dll
+C:\Users\Zed\Documents\GitHub\SF10-Generation-System\SF10 Generation Systems\bin\Debug\BouncyCastle.Cryptography.xml
+C:\Users\Zed\Documents\GitHub\SF10-Generation-System\SF10 Generation Systems\bin\Debug\GemBox.Document.xml
+C:\Users\Zed\Documents\GitHub\SF10-Generation-System\SF10 Generation Systems\bin\Debug\GemBox.Email.xml
+C:\Users\Zed\Documents\GitHub\SF10-Generation-System\SF10 Generation Systems\bin\Debug\GemBox.Imaging.xml
+C:\Users\Zed\Documents\GitHub\SF10-Generation-System\SF10 Generation Systems\bin\Debug\GemBox.Pdf.xml
+C:\Users\Zed\Documents\GitHub\SF10-Generation-System\SF10 Generation Systems\bin\Debug\GemBox.Presentation.xml
+C:\Users\Zed\Documents\GitHub\SF10-Generation-System\SF10 Generation Systems\bin\Debug\GemBox.Spreadsheet.xml
+C:\Users\Zed\Documents\GitHub\SF10-Generation-System\SF10 Generation Systems\bin\Debug\HarfBuzzSharp.pdb
+C:\Users\Zed\Documents\GitHub\SF10-Generation-System\SF10 Generation Systems\bin\Debug\HarfBuzzSharp.xml
+C:\Users\Zed\Documents\GitHub\SF10-Generation-System\SF10 Generation Systems\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\Zed\Documents\GitHub\SF10-Generation-System\SF10 Generation Systems\bin\Debug\OpenTK.pdb
+C:\Users\Zed\Documents\GitHub\SF10-Generation-System\SF10 Generation Systems\bin\Debug\OpenTK.xml
+C:\Users\Zed\Documents\GitHub\SF10-Generation-System\SF10 Generation Systems\bin\Debug\OpenTK.GLControl.pdb
+C:\Users\Zed\Documents\GitHub\SF10-Generation-System\SF10 Generation Systems\bin\Debug\OpenTK.GLControl.xml
+C:\Users\Zed\Documents\GitHub\SF10-Generation-System\SF10 Generation Systems\bin\Debug\Pkcs11Interop.xml
+C:\Users\Zed\Documents\GitHub\SF10-Generation-System\SF10 Generation Systems\bin\Debug\ScottPlot.xml
+C:\Users\Zed\Documents\GitHub\SF10-Generation-System\SF10 Generation Systems\bin\Debug\ScottPlot.WinForms.xml
+C:\Users\Zed\Documents\GitHub\SF10-Generation-System\SF10 Generation Systems\bin\Debug\SkiaSharp.pdb
+C:\Users\Zed\Documents\GitHub\SF10-Generation-System\SF10 Generation Systems\bin\Debug\SkiaSharp.xml
+C:\Users\Zed\Documents\GitHub\SF10-Generation-System\SF10 Generation Systems\bin\Debug\SkiaSharp.Views.Desktop.Common.pdb
+C:\Users\Zed\Documents\GitHub\SF10-Generation-System\SF10 Generation Systems\bin\Debug\SkiaSharp.Views.Desktop.Common.xml
+C:\Users\Zed\Documents\GitHub\SF10-Generation-System\SF10 Generation Systems\bin\Debug\SkiaSharp.Views.WindowsForms.pdb
+C:\Users\Zed\Documents\GitHub\SF10-Generation-System\SF10 Generation Systems\bin\Debug\SkiaSharp.Views.WindowsForms.xml
+C:\Users\Zed\Documents\GitHub\SF10-Generation-System\SF10 Generation Systems\bin\Debug\System.Buffers.xml
+C:\Users\Zed\Documents\GitHub\SF10-Generation-System\SF10 Generation Systems\bin\Debug\System.Memory.xml
+C:\Users\Zed\Documents\GitHub\SF10-Generation-System\SF10 Generation Systems\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\Zed\Documents\GitHub\SF10-Generation-System\SF10 Generation Systems\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\Zed\Documents\GitHub\SF10-Generation-System\SF10 Generation Systems\bin\Debug\System.Text.Encodings.Web.xml
+C:\Users\Zed\Documents\GitHub\SF10-Generation-System\SF10 Generation Systems\bin\Debug\System.Text.Json.xml
+C:\Users\Zed\Documents\GitHub\SF10-Generation-System\SF10 Generation Systems\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\Zed\Documents\GitHub\SF10-Generation-System\SF10 Generation Systems\bin\Debug\System.ValueTuple.xml
+C:\Users\Zed\Documents\GitHub\SF10-Generation-System\SF10 Generation Systems\obj\Debug\SF10 Generation Systems.csprojAssemblyReference.cache
+C:\Users\Zed\Documents\GitHub\SF10-Generation-System\SF10 Generation Systems\obj\Debug\SF10_Generation_Systems.Form1.resources
+C:\Users\Zed\Documents\GitHub\SF10-Generation-System\SF10 Generation Systems\obj\Debug\SF10_Generation_Systems.Selector.resources
+C:\Users\Zed\Documents\GitHub\SF10-Generation-System\SF10 Generation Systems\obj\Debug\SF10_Generation_Systems.frmMain.resources
+C:\Users\Zed\Documents\GitHub\SF10-Generation-System\SF10 Generation Systems\obj\Debug\SF10_Generation_Systems.Properties.Resources.resources
+C:\Users\Zed\Documents\GitHub\SF10-Generation-System\SF10 Generation Systems\obj\Debug\SF10 Generation Systems.csproj.GenerateResource.cache
+C:\Users\Zed\Documents\GitHub\SF10-Generation-System\SF10 Generation Systems\obj\Debug\SF10 Generation Systems.csproj.CoreCompileInputs.cache
+C:\Users\Zed\Documents\GitHub\SF10-Generation-System\SF10 Generation Systems\obj\Debug\SF10 Generation Systems.csproj.CopyComplete
+C:\Users\Zed\Documents\GitHub\SF10-Generation-System\SF10 Generation Systems\obj\Debug\SF10 Generation Systems.exe
+C:\Users\Zed\Documents\GitHub\SF10-Generation-System\SF10 Generation Systems\obj\Debug\SF10 Generation Systems.pdb
