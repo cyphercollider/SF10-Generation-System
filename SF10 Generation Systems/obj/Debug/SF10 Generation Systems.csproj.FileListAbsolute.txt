@@ -25,6 +25,7 @@ I:\AAA  Important\dotNetWorkspace\Projects\Csharp\SF10 Generation Systems\SF10 G
 I:\AAA  Important\dotNetWorkspace\Projects\Csharp\SF10 Generation Systems\SF10 Generation Systems\bin\Debug\HarfBuzzSharp.dll
 I:\AAA  Important\dotNetWorkspace\Projects\Csharp\SF10 Generation Systems\SF10 Generation Systems\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
 I:\AAA  Important\dotNetWorkspace\Projects\Csharp\SF10 Generation Systems\SF10 Generation Systems\bin\Debug\Pkcs11Interop.dll
+I:\AAA  Important\dotNetWorkspace\Projects\Csharp\SF10 Generation Systems\SF10 Generation Systems\bin\Debug\ReaLTaiizor.dll
 I:\AAA  Important\dotNetWorkspace\Projects\Csharp\SF10 Generation Systems\SF10 Generation Systems\bin\Debug\SkiaSharp.dll
 I:\AAA  Important\dotNetWorkspace\Projects\Csharp\SF10 Generation Systems\SF10 Generation Systems\bin\Debug\System.Buffers.dll
 I:\AAA  Important\dotNetWorkspace\Projects\Csharp\SF10 Generation Systems\SF10 Generation Systems\bin\Debug\System.Memory.dll
@@ -45,6 +46,7 @@ I:\AAA  Important\dotNetWorkspace\Projects\Csharp\SF10 Generation Systems\SF10 G
 I:\AAA  Important\dotNetWorkspace\Projects\Csharp\SF10 Generation Systems\SF10 Generation Systems\bin\Debug\HarfBuzzSharp.xml
 I:\AAA  Important\dotNetWorkspace\Projects\Csharp\SF10 Generation Systems\SF10 Generation Systems\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
 I:\AAA  Important\dotNetWorkspace\Projects\Csharp\SF10 Generation Systems\SF10 Generation Systems\bin\Debug\Pkcs11Interop.xml
+I:\AAA  Important\dotNetWorkspace\Projects\Csharp\SF10 Generation Systems\SF10 Generation Systems\bin\Debug\ReaLTaiizor.xml
 I:\AAA  Important\dotNetWorkspace\Projects\Csharp\SF10 Generation Systems\SF10 Generation Systems\bin\Debug\SkiaSharp.pdb
 I:\AAA  Important\dotNetWorkspace\Projects\Csharp\SF10 Generation Systems\SF10 Generation Systems\bin\Debug\SkiaSharp.xml
 I:\AAA  Important\dotNetWorkspace\Projects\Csharp\SF10 Generation Systems\SF10 Generation Systems\bin\Debug\System.Buffers.xml
@@ -219,26 +221,3 @@ E:\AAA  Important\dotNetWorkspace\Projects\Csharp\SF10 Generation Systems\SF10 G
 E:\AAA  Important\dotNetWorkspace\Projects\Csharp\SF10 Generation Systems\SF10 Generation Systems\obj\Debug\SF10_Generation_Systems.frmMain.resources
 E:\AAA  Important\dotNetWorkspace\Projects\Csharp\SF10 Generation Systems\SF10 Generation Systems\obj\Debug\SF10 Generation Systems.csproj.AssemblyReference.cache
 E:\AAA  Important\dotNetWorkspace\Projects\Csharp\SF10 Generation Systems\SF10 Generation Systems\obj\Debug\SF10_Generation_Systems.Selector.resources
-I:\AAA  Important\dotNetWorkspace\Projects\Csharp\SF10 Generation Systems\SF10 Generation Systems\bin\Debug\x64\libSkiaSharp.so
-I:\AAA  Important\dotNetWorkspace\Projects\Csharp\SF10 Generation Systems\SF10 Generation Systems\bin\Debug\arm\libSkiaSharp.so
-I:\AAA  Important\dotNetWorkspace\Projects\Csharp\SF10 Generation Systems\SF10 Generation Systems\bin\Debug\arm64\libSkiaSharp.so
-I:\AAA  Important\dotNetWorkspace\Projects\Csharp\SF10 Generation Systems\SF10 Generation Systems\bin\Debug\musl-x64\libSkiaSharp.so
-I:\AAA  Important\dotNetWorkspace\Projects\Csharp\SF10 Generation Systems\SF10 Generation Systems\bin\Debug\OpenTK.dll
-I:\AAA  Important\dotNetWorkspace\Projects\Csharp\SF10 Generation Systems\SF10 Generation Systems\bin\Debug\OpenTK.GLControl.dll
-I:\AAA  Important\dotNetWorkspace\Projects\Csharp\SF10 Generation Systems\SF10 Generation Systems\bin\Debug\ScottPlot.dll
-I:\AAA  Important\dotNetWorkspace\Projects\Csharp\SF10 Generation Systems\SF10 Generation Systems\bin\Debug\ScottPlot.WinForms.dll
-I:\AAA  Important\dotNetWorkspace\Projects\Csharp\SF10 Generation Systems\SF10 Generation Systems\bin\Debug\SkiaSharp.Views.Desktop.Common.dll
-I:\AAA  Important\dotNetWorkspace\Projects\Csharp\SF10 Generation Systems\SF10 Generation Systems\bin\Debug\SkiaSharp.Views.WindowsForms.dll
-I:\AAA  Important\dotNetWorkspace\Projects\Csharp\SF10 Generation Systems\SF10 Generation Systems\bin\Debug\System.Drawing.Common.dll
-I:\AAA  Important\dotNetWorkspace\Projects\Csharp\SF10 Generation Systems\SF10 Generation Systems\bin\Debug\OpenTK.pdb
-I:\AAA  Important\dotNetWorkspace\Projects\Csharp\SF10 Generation Systems\SF10 Generation Systems\bin\Debug\OpenTK.xml
-I:\AAA  Important\dotNetWorkspace\Projects\Csharp\SF10 Generation Systems\SF10 Generation Systems\bin\Debug\OpenTK.GLControl.pdb
-I:\AAA  Important\dotNetWorkspace\Projects\Csharp\SF10 Generation Systems\SF10 Generation Systems\bin\Debug\OpenTK.GLControl.xml
-I:\AAA  Important\dotNetWorkspace\Projects\Csharp\SF10 Generation Systems\SF10 Generation Systems\bin\Debug\ScottPlot.xml
-I:\AAA  Important\dotNetWorkspace\Projects\Csharp\SF10 Generation Systems\SF10 Generation Systems\bin\Debug\ScottPlot.WinForms.xml
-I:\AAA  Important\dotNetWorkspace\Projects\Csharp\SF10 Generation Systems\SF10 Generation Systems\bin\Debug\SkiaSharp.Views.Desktop.Common.pdb
-I:\AAA  Important\dotNetWorkspace\Projects\Csharp\SF10 Generation Systems\SF10 Generation Systems\bin\Debug\SkiaSharp.Views.Desktop.Common.xml
-I:\AAA  Important\dotNetWorkspace\Projects\Csharp\SF10 Generation Systems\SF10 Generation Systems\bin\Debug\SkiaSharp.Views.WindowsForms.pdb
-I:\AAA  Important\dotNetWorkspace\Projects\Csharp\SF10 Generation Systems\SF10 Generation Systems\bin\Debug\SkiaSharp.Views.WindowsForms.xml
-I:\AAA  Important\dotNetWorkspace\Projects\Csharp\SF10 Generation Systems\SF10 Generation Systems\obj\Debug\SF10 Generation Systems.exe.config
-I:\AAA  Important\dotNetWorkspace\Projects\Csharp\SF10 Generation Systems\SF10 Generation Systems\obj\Debug\SF10_Generation_Systems.Selector.resources

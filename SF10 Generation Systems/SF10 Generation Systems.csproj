@@ -8,7 +8,7 @@
     <OutputType>WinExe</OutputType>
     <RootNamespace>SF10_Generation_Systems</RootNamespace>
     <AssemblyName>SF10 Generation Systems</AssemblyName>
-    <TargetFrameworkVersion>v4.6.2</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
     <Deterministic>true</Deterministic>
@@ -139,6 +139,12 @@
     <Reference Include="WindowsBase" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
     <Compile Include="selector.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -153,6 +159,9 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="selector.resx">
       <DependentUpon>selector.cs</DependentUpon>
     </EmbeddedResource>
@@ -185,6 +194,54 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\house-linear-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\png-clhouse-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Icons - Copy.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\home.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MenuBtn.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\menu.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\spreadsheet.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SecList.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ranking.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\subs.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\454285823_468807862619563_1063676582656395939_n.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\272272589_1562751214090030_5883775709296737109_n.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ui-profile-icon-vector.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\profileIcon.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\profile-user-icon-1024x1024-5fg7tz2z.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\home %282%29.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Import Project="..\packages\HarfBuzzSharp.NativeAssets.macOS.7.3.0\build\net462\HarfBuzzSharp.NativeAssets.macOS.targets" Condition="Exists('..\packages\HarfBuzzSharp.NativeAssets.macOS.7.3.0\build\net462\HarfBuzzSharp.NativeAssets.macOS.targets')" />
