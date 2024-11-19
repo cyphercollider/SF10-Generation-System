@@ -39,7 +39,7 @@ namespace SF10_Generation_Systems
                 }
                 else
                 {
-                    fpnlMenu.Width += 10 ;
+                    fpnlMenu.Width += 20 ;
                 }
             }
             else
@@ -50,7 +50,7 @@ namespace SF10_Generation_Systems
                 }
                 else
                 {
-                    fpnlMenu.Width -= 10;
+                    fpnlMenu.Width -= 20;
                 }
             }
         }
@@ -124,12 +124,59 @@ namespace SF10_Generation_Systems
 
                     // Focus tab control to view spreadsheet
 
+                    LinkLabel link = new LinkLabel();
+                    link.Text = filepath;
+                    link.Tag = filepath;
+                    flowLayoutPanel1.Controls.Add(link);
                 }
                 catch (FileLoadException ex)
                 {
                     MessageBox.Show("Error", ex.StackTrace);
                 }
             }
+        }
+
+        private void dataGridView1_DataSourceChanged(object sender, EventArgs e)
+        {
+            pageShift();
+            if (dataGridView1.DataSource != null)
+            {
+                dataGridView1.Visible = true;
+            }
+            else
+            {
+                dataGridView1.Visible = false;
+            }
+        }
+
+        private void frmMain_SizeChanged(object sender, EventArgs e)
+        {
+            this.panel10.Left = (this.pnlSpreadsheet.Width - panel10.Width) / 2;
+            this.panel10.Top = (this.pnlSpreadsheet.Height - panel10.Height) / 2;
+            this.panel12.Left = (this.pnlHome.Width - panel12.Width) / 2;
+            this.panel12.Top = (this.pnlHome.Height - panel12.Height) / 2;
+        }
+
+        private void panel9_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            pageShift();
+            pnlHome.Visible = true;
+            
+        }
+
+        public void pageShift()
+        {
+            foreach (Control t in pnlMain.Controls)
+            {
+                t.Visible = false;
+            }
+            pnlTopPanel.Visible = true;
+            pnlSpreadsheet.Visible = true;
         }
     }
 }

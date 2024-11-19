@@ -29,15 +29,28 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmMain));
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle5 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle6 = new System.Windows.Forms.DataGridViewCellStyle();
             this.menuTransition = new System.Windows.Forms.Timer(this.components);
             this.openFileDialog1 = new System.Windows.Forms.OpenFileDialog();
-            this.panel4 = new System.Windows.Forms.Panel();
+            this.pnlMain = new System.Windows.Forms.Panel();
+            this.pnlHome = new System.Windows.Forms.Panel();
+            this.panel12 = new System.Windows.Forms.Panel();
+            this.panel9 = new System.Windows.Forms.Panel();
+            this.btnSpreadsheet = new System.Windows.Forms.Button();
+            this.lblWelcome = new System.Windows.Forms.Label();
+            this.pnlSpreadsheet = new System.Windows.Forms.Panel();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.panel10 = new System.Windows.Forms.Panel();
+            this.flowLayoutPanel1 = new System.Windows.Forms.FlowLayoutPanel();
+            this.label3 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
+            this.label1 = new System.Windows.Forms.Label();
+            this.panel11 = new System.Windows.Forms.Panel();
+            this.button2 = new System.Windows.Forms.Button();
             this.panel8 = new System.Windows.Forms.Panel();
-            this.panel5 = new System.Windows.Forms.Panel();
+            this.pnlTopPanel = new System.Windows.Forms.Panel();
             this.fpnlMenu = new System.Windows.Forms.FlowLayoutPanel();
             this.pnlButtonPanel1 = new System.Windows.Forms.Panel();
             this.btnMenu = new System.Windows.Forms.Button();
@@ -55,8 +68,15 @@
             this.btnOpenData = new System.Windows.Forms.Button();
             this.panel6 = new System.Windows.Forms.Panel();
             this.btnOpenProject = new System.Windows.Forms.Button();
-            this.panel4.SuspendLayout();
+            this.label4 = new System.Windows.Forms.Label();
+            this.pnlMain.SuspendLayout();
+            this.pnlHome.SuspendLayout();
+            this.panel12.SuspendLayout();
+            this.panel9.SuspendLayout();
+            this.pnlSpreadsheet.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            this.panel10.SuspendLayout();
+            this.panel11.SuspendLayout();
             this.fpnlMenu.SuspendLayout();
             this.pnlButtonPanel1.SuspendLayout();
             this.panel7.SuspendLayout();
@@ -80,45 +100,199 @@
             this.openFileDialog1.Filter = "\"Excel Spreadsheet (*.xlsx)|*.xlsx|All files (*.*)|*.*\"";
             this.openFileDialog1.Title = "Browse for Student Data";
             // 
-            // panel4
+            // pnlMain
             // 
-            this.panel4.BackColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.panel4.Controls.Add(this.dataGridView1);
-            this.panel4.Controls.Add(this.panel8);
-            this.panel4.Controls.Add(this.panel5);
-            this.panel4.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panel4.Location = new System.Drawing.Point(60, 0);
-            this.panel4.Name = "panel4";
-            this.panel4.Size = new System.Drawing.Size(740, 450);
-            this.panel4.TabIndex = 8;
+            this.pnlMain.BackColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.pnlMain.Controls.Add(this.pnlHome);
+            this.pnlMain.Controls.Add(this.pnlSpreadsheet);
+            this.pnlMain.Controls.Add(this.panel8);
+            this.pnlMain.Controls.Add(this.pnlTopPanel);
+            this.pnlMain.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.pnlMain.Location = new System.Drawing.Point(60, 0);
+            this.pnlMain.Name = "pnlMain";
+            this.pnlMain.Size = new System.Drawing.Size(977, 528);
+            this.pnlMain.TabIndex = 8;
+            // 
+            // pnlHome
+            // 
+            this.pnlHome.BackColor = System.Drawing.SystemColors.Control;
+            this.pnlHome.Controls.Add(this.panel12);
+            this.pnlHome.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.pnlHome.Location = new System.Drawing.Point(0, 51);
+            this.pnlHome.Name = "pnlHome";
+            this.pnlHome.Size = new System.Drawing.Size(977, 477);
+            this.pnlHome.TabIndex = 5;
+            // 
+            // panel12
+            // 
+            this.panel12.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.panel12.BackColor = System.Drawing.Color.White;
+            this.panel12.Controls.Add(this.label4);
+            this.panel12.Controls.Add(this.panel9);
+            this.panel12.Controls.Add(this.lblWelcome);
+            this.panel12.Location = new System.Drawing.Point(154, 51);
+            this.panel12.Name = "panel12";
+            this.panel12.Size = new System.Drawing.Size(668, 371);
+            this.panel12.TabIndex = 1;
+            // 
+            // panel9
+            // 
+            this.panel9.Controls.Add(this.btnSpreadsheet);
+            this.panel9.Location = new System.Drawing.Point(51, 118);
+            this.panel9.Name = "panel9";
+            this.panel9.Size = new System.Drawing.Size(259, 101);
+            this.panel9.TabIndex = 4;
+            // 
+            // btnSpreadsheet
+            // 
+            this.btnSpreadsheet.BackColor = System.Drawing.SystemColors.Control;
+            this.btnSpreadsheet.Dock = System.Windows.Forms.DockStyle.Top;
+            this.btnSpreadsheet.FlatAppearance.BorderSize = 0;
+            this.btnSpreadsheet.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnSpreadsheet.Font = new System.Drawing.Font("Segoe UI", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnSpreadsheet.Image = ((System.Drawing.Image)(resources.GetObject("btnSpreadsheet.Image")));
+            this.btnSpreadsheet.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnSpreadsheet.Location = new System.Drawing.Point(0, 0);
+            this.btnSpreadsheet.Name = "btnSpreadsheet";
+            this.btnSpreadsheet.Padding = new System.Windows.Forms.Padding(5, 0, 0, 0);
+            this.btnSpreadsheet.Size = new System.Drawing.Size(259, 101);
+            this.btnSpreadsheet.TabIndex = 2;
+            this.btnSpreadsheet.Text = "            Data";
+            this.btnSpreadsheet.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnSpreadsheet.UseVisualStyleBackColor = false;
+            this.btnSpreadsheet.Click += new System.EventHandler(this.dataGridView1_DataSourceChanged);
+            // 
+            // lblWelcome
+            // 
+            this.lblWelcome.AutoSize = true;
+            this.lblWelcome.Font = new System.Drawing.Font("Segoe UI", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblWelcome.Location = new System.Drawing.Point(44, 39);
+            this.lblWelcome.Name = "lblWelcome";
+            this.lblWelcome.Size = new System.Drawing.Size(127, 37);
+            this.lblWelcome.TabIndex = 0;
+            this.lblWelcome.Text = "Welcome";
+            // 
+            // pnlSpreadsheet
+            // 
+            this.pnlSpreadsheet.BackColor = System.Drawing.SystemColors.Control;
+            this.pnlSpreadsheet.Controls.Add(this.dataGridView1);
+            this.pnlSpreadsheet.Controls.Add(this.panel10);
+            this.pnlSpreadsheet.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.pnlSpreadsheet.Location = new System.Drawing.Point(0, 51);
+            this.pnlSpreadsheet.Name = "pnlSpreadsheet";
+            this.pnlSpreadsheet.Size = new System.Drawing.Size(977, 477);
+            this.pnlSpreadsheet.TabIndex = 3;
+            this.pnlSpreadsheet.Paint += new System.Windows.Forms.PaintEventHandler(this.panel9_Paint);
             // 
             // dataGridView1
             // 
             this.dataGridView1.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.dataGridView1.BackgroundColor = System.Drawing.SystemColors.Control;
-            dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle1.BackColor = System.Drawing.SystemColors.Control;
-            dataGridViewCellStyle1.Font = new System.Drawing.Font("Segoe UI Semibold", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle1.ForeColor = System.Drawing.SystemColors.WindowText;
-            dataGridViewCellStyle1.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle1.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle1.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dataGridView1.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle1;
+            dataGridViewCellStyle5.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle5.BackColor = System.Drawing.SystemColors.Control;
+            dataGridViewCellStyle5.Font = new System.Drawing.Font("Segoe UI Semibold", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle5.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle5.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle5.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle5.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dataGridView1.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle5;
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle2.BackColor = System.Drawing.SystemColors.Window;
-            dataGridViewCellStyle2.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle2.ForeColor = System.Drawing.SystemColors.ControlText;
-            dataGridViewCellStyle2.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.dataGridView1.DefaultCellStyle = dataGridViewCellStyle2;
+            dataGridViewCellStyle6.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle6.BackColor = System.Drawing.SystemColors.Window;
+            dataGridViewCellStyle6.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle6.ForeColor = System.Drawing.SystemColors.ControlText;
+            dataGridViewCellStyle6.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle6.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle6.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.dataGridView1.DefaultCellStyle = dataGridViewCellStyle6;
             this.dataGridView1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.dataGridView1.GridColor = System.Drawing.SystemColors.ControlLight;
-            this.dataGridView1.Location = new System.Drawing.Point(0, 51);
+            this.dataGridView1.Location = new System.Drawing.Point(0, 0);
             this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.Size = new System.Drawing.Size(740, 399);
+            this.dataGridView1.Size = new System.Drawing.Size(977, 477);
             this.dataGridView1.TabIndex = 0;
+            this.dataGridView1.Visible = false;
+            this.dataGridView1.DataSourceChanged += new System.EventHandler(this.dataGridView1_DataSourceChanged);
+            // 
+            // panel10
+            // 
+            this.panel10.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.panel10.BackColor = System.Drawing.Color.White;
+            this.panel10.Controls.Add(this.flowLayoutPanel1);
+            this.panel10.Controls.Add(this.label3);
+            this.panel10.Controls.Add(this.label2);
+            this.panel10.Controls.Add(this.label1);
+            this.panel10.Controls.Add(this.panel11);
+            this.panel10.Location = new System.Drawing.Point(237, 90);
+            this.panel10.Name = "panel10";
+            this.panel10.Size = new System.Drawing.Size(502, 260);
+            this.panel10.TabIndex = 4;
+            // 
+            // flowLayoutPanel1
+            // 
+            this.flowLayoutPanel1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.flowLayoutPanel1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.flowLayoutPanel1.Location = new System.Drawing.Point(36, 86);
+            this.flowLayoutPanel1.Name = "flowLayoutPanel1";
+            this.flowLayoutPanel1.Size = new System.Drawing.Size(191, 135);
+            this.flowLayoutPanel1.TabIndex = 9;
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.Location = new System.Drawing.Point(33, 63);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(92, 17);
+            this.label3.TabIndex = 8;
+            this.label3.Text = "Continue here:";
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Location = new System.Drawing.Point(297, 64);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(99, 17);
+            this.label2.TabIndex = 7;
+            this.label2.Text = "Open one here:";
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(31, 19);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(222, 25);
+            this.label1.TabIndex = 6;
+            this.label1.Text = "No Student Data Opened";
+            // 
+            // panel11
+            // 
+            this.panel11.Controls.Add(this.button2);
+            this.panel11.Location = new System.Drawing.Point(300, 87);
+            this.panel11.Name = "panel11";
+            this.panel11.Size = new System.Drawing.Size(160, 43);
+            this.panel11.TabIndex = 5;
+            // 
+            // button2
+            // 
+            this.button2.BackColor = System.Drawing.SystemColors.Control;
+            this.button2.Dock = System.Windows.Forms.DockStyle.Top;
+            this.button2.FlatAppearance.BorderSize = 0;
+            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button2.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button2.Image = ((System.Drawing.Image)(resources.GetObject("button2.Image")));
+            this.button2.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.button2.Location = new System.Drawing.Point(0, 0);
+            this.button2.Name = "button2";
+            this.button2.Padding = new System.Windows.Forms.Padding(5, 0, 0, 0);
+            this.button2.Size = new System.Drawing.Size(160, 43);
+            this.button2.TabIndex = 2;
+            this.button2.Text = "           Open Data";
+            this.button2.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.button2.UseVisualStyleBackColor = false;
+            this.button2.Click += new System.EventHandler(this.btnOpenData_Click_1);
             // 
             // panel8
             // 
@@ -126,17 +300,17 @@
             this.panel8.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel8.Location = new System.Drawing.Point(0, 51);
             this.panel8.Name = "panel8";
-            this.panel8.Size = new System.Drawing.Size(740, 399);
+            this.panel8.Size = new System.Drawing.Size(977, 477);
             this.panel8.TabIndex = 2;
             // 
-            // panel5
+            // pnlTopPanel
             // 
-            this.panel5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.panel5.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel5.Location = new System.Drawing.Point(0, 0);
-            this.panel5.Name = "panel5";
-            this.panel5.Size = new System.Drawing.Size(740, 51);
-            this.panel5.TabIndex = 1;
+            this.pnlTopPanel.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pnlTopPanel.Dock = System.Windows.Forms.DockStyle.Top;
+            this.pnlTopPanel.Location = new System.Drawing.Point(0, 0);
+            this.pnlTopPanel.Name = "pnlTopPanel";
+            this.pnlTopPanel.Size = new System.Drawing.Size(977, 51);
+            this.pnlTopPanel.TabIndex = 1;
             // 
             // fpnlMenu
             // 
@@ -150,7 +324,7 @@
             this.fpnlMenu.Location = new System.Drawing.Point(0, 0);
             this.fpnlMenu.Margin = new System.Windows.Forms.Padding(0);
             this.fpnlMenu.Name = "fpnlMenu";
-            this.fpnlMenu.Size = new System.Drawing.Size(60, 450);
+            this.fpnlMenu.Size = new System.Drawing.Size(60, 528);
             this.fpnlMenu.TabIndex = 6;
             this.fpnlMenu.WrapContents = false;
             // 
@@ -206,6 +380,7 @@
             this.button1.Text = "           Home";
             this.button1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.button1.UseVisualStyleBackColor = false;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // fpnlFileMenu
             // 
@@ -366,18 +541,37 @@
             this.btnOpenProject.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnOpenProject.UseVisualStyleBackColor = false;
             // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.Location = new System.Drawing.Point(48, 100);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(225, 17);
+            this.label4.TabIndex = 5;
+            this.label4.Text = "Many sources to form one document";
+            // 
             // frmMain
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.panel4);
+            this.ClientSize = new System.Drawing.Size(1037, 528);
+            this.Controls.Add(this.pnlMain);
             this.Controls.Add(this.fpnlMenu);
             this.Name = "frmMain";
             this.Text = "SF10 Generation System";
             this.Load += new System.EventHandler(this.frmMain_Load);
-            this.panel4.ResumeLayout(false);
+            this.SizeChanged += new System.EventHandler(this.frmMain_SizeChanged);
+            this.pnlMain.ResumeLayout(false);
+            this.pnlHome.ResumeLayout(false);
+            this.panel12.ResumeLayout(false);
+            this.panel12.PerformLayout();
+            this.panel9.ResumeLayout(false);
+            this.pnlSpreadsheet.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
+            this.panel10.ResumeLayout(false);
+            this.panel10.PerformLayout();
+            this.panel11.ResumeLayout(false);
             this.fpnlMenu.ResumeLayout(false);
             this.pnlButtonPanel1.ResumeLayout(false);
             this.panel7.ResumeLayout(false);
@@ -395,7 +589,7 @@
         #endregion
         private System.Windows.Forms.Timer menuTransition;
         private System.Windows.Forms.OpenFileDialog openFileDialog1;
-        private System.Windows.Forms.Panel panel4;
+        private System.Windows.Forms.Panel pnlMain;
         private System.Windows.Forms.DataGridView dataGridView1;
         private System.Windows.Forms.FlowLayoutPanel fpnlMenu;
         private System.Windows.Forms.Panel pnlButtonPanel1;
@@ -412,9 +606,23 @@
         private System.Windows.Forms.Button btnOpenData;
         private System.Windows.Forms.Panel panel6;
         private System.Windows.Forms.Button btnOpenProject;
-        private System.Windows.Forms.Panel panel5;
+        private System.Windows.Forms.Panel pnlTopPanel;
         private System.Windows.Forms.Panel panel7;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Panel panel8;
+        private System.Windows.Forms.Panel pnlSpreadsheet;
+        private System.Windows.Forms.Panel panel10;
+        private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel1;
+        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Panel panel11;
+        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Panel pnlHome;
+        private System.Windows.Forms.Label lblWelcome;
+        private System.Windows.Forms.Panel panel12;
+        private System.Windows.Forms.Panel panel9;
+        private System.Windows.Forms.Button btnSpreadsheet;
+        private System.Windows.Forms.Label label4;
     }
 }
