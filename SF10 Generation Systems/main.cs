@@ -47,7 +47,7 @@ namespace SF10_Generation_Systems
                     worksheet.ExtractToDataTable(dataTable, new ExtractToDataTableOptions(1, 0, 20));
 
 
-                   // dataGridView1.DataSource = dataTable;
+                    dataGridView1.DataSource = dataTable;
 
                     // Focus tab control to view spreadsheet
                     tbcOperationPanel.SelectTab(1);
@@ -84,17 +84,13 @@ namespace SF10_Generation_Systems
 
         private void frmMain_SizeChanged(object sender, EventArgs e)
         {
-           
+            this.panel1.Left = (this.ClientSize.Width - panel1.Width) / 2;
+            this.panel1.Top = (this.ClientSize.Height - panel1.Height) / 2;
         }
 
         private void button1_Click_1(object sender, EventArgs e)
         {
             openFile();
-        }
-
-        private void tabPage2_Click(object sender, EventArgs e)
-        {
-
         }
     }
 }
