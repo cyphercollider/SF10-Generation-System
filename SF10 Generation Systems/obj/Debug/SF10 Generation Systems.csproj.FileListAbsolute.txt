@@ -385,3 +385,91 @@ E:\AAA  Important\dotNetWorkspace\Github\SF10-Generation-System\SF10 Generation 
 E:\AAA  Important\dotNetWorkspace\Github\SF10-Generation-System\SF10 Generation Systems\obj\Debug\SF10 Generation Systems.csproj.CopyComplete
 E:\AAA  Important\dotNetWorkspace\Github\SF10-Generation-System\SF10 Generation Systems\obj\Debug\SF10 Generation Systems.exe
 E:\AAA  Important\dotNetWorkspace\Github\SF10-Generation-System\SF10 Generation Systems\obj\Debug\SF10 Generation Systems.pdb
+I:\AAA  Important\dotNetWorkspace\Github\SF10-Generation-System\SF10 Generation Systems\bin\Debug\libHarfBuzzSharp.dylib
+I:\AAA  Important\dotNetWorkspace\Github\SF10-Generation-System\SF10 Generation Systems\bin\Debug\x86\libHarfBuzzSharp.dll
+I:\AAA  Important\dotNetWorkspace\Github\SF10-Generation-System\SF10 Generation Systems\bin\Debug\x64\libHarfBuzzSharp.dll
+I:\AAA  Important\dotNetWorkspace\Github\SF10-Generation-System\SF10 Generation Systems\bin\Debug\arm64\libHarfBuzzSharp.dll
+I:\AAA  Important\dotNetWorkspace\Github\SF10-Generation-System\SF10 Generation Systems\bin\Debug\libSkiaSharp.dylib
+I:\AAA  Important\dotNetWorkspace\Github\SF10-Generation-System\SF10 Generation Systems\bin\Debug\x86\libSkiaSharp.dll
+I:\AAA  Important\dotNetWorkspace\Github\SF10-Generation-System\SF10 Generation Systems\bin\Debug\x64\libSkiaSharp.dll
+I:\AAA  Important\dotNetWorkspace\Github\SF10-Generation-System\SF10 Generation Systems\bin\Debug\arm64\libSkiaSharp.dll
+I:\AAA  Important\dotNetWorkspace\Github\SF10-Generation-System\SF10 Generation Systems\bin\Debug\x64\libSkiaSharp.so
+I:\AAA  Important\dotNetWorkspace\Github\SF10-Generation-System\SF10 Generation Systems\bin\Debug\arm\libSkiaSharp.so
+I:\AAA  Important\dotNetWorkspace\Github\SF10-Generation-System\SF10 Generation Systems\bin\Debug\arm64\libSkiaSharp.so
+I:\AAA  Important\dotNetWorkspace\Github\SF10-Generation-System\SF10 Generation Systems\bin\Debug\musl-x64\libSkiaSharp.so
+I:\AAA  Important\dotNetWorkspace\Github\SF10-Generation-System\SF10 Generation Systems\bin\Debug\SF10 Generation Systems.exe.config
+I:\AAA  Important\dotNetWorkspace\Github\SF10-Generation-System\SF10 Generation Systems\bin\Debug\SF10 Generation Systems.exe
+I:\AAA  Important\dotNetWorkspace\Github\SF10-Generation-System\SF10 Generation Systems\bin\Debug\SF10 Generation Systems.pdb
+I:\AAA  Important\dotNetWorkspace\Github\SF10-Generation-System\SF10 Generation Systems\bin\Debug\BouncyCastle.Cryptography.dll
+I:\AAA  Important\dotNetWorkspace\Github\SF10-Generation-System\SF10 Generation Systems\bin\Debug\GemBox.Document.dll
+I:\AAA  Important\dotNetWorkspace\Github\SF10-Generation-System\SF10 Generation Systems\bin\Debug\GemBox.Email.dll
+I:\AAA  Important\dotNetWorkspace\Github\SF10-Generation-System\SF10 Generation Systems\bin\Debug\GemBox.Imaging.dll
+I:\AAA  Important\dotNetWorkspace\Github\SF10-Generation-System\SF10 Generation Systems\bin\Debug\GemBox.Pdf.dll
+I:\AAA  Important\dotNetWorkspace\Github\SF10-Generation-System\SF10 Generation Systems\bin\Debug\GemBox.Presentation.dll
+I:\AAA  Important\dotNetWorkspace\Github\SF10-Generation-System\SF10 Generation Systems\bin\Debug\GemBox.Spreadsheet.dll
+I:\AAA  Important\dotNetWorkspace\Github\SF10-Generation-System\SF10 Generation Systems\bin\Debug\HarfBuzzSharp.dll
+I:\AAA  Important\dotNetWorkspace\Github\SF10-Generation-System\SF10 Generation Systems\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+I:\AAA  Important\dotNetWorkspace\Github\SF10-Generation-System\SF10 Generation Systems\bin\Debug\OpenTK.dll
+I:\AAA  Important\dotNetWorkspace\Github\SF10-Generation-System\SF10 Generation Systems\bin\Debug\OpenTK.GLControl.dll
+I:\AAA  Important\dotNetWorkspace\Github\SF10-Generation-System\SF10 Generation Systems\bin\Debug\Pkcs11Interop.dll
+I:\AAA  Important\dotNetWorkspace\Github\SF10-Generation-System\SF10 Generation Systems\bin\Debug\ScottPlot.dll
+I:\AAA  Important\dotNetWorkspace\Github\SF10-Generation-System\SF10 Generation Systems\bin\Debug\ScottPlot.WinForms.dll
+I:\AAA  Important\dotNetWorkspace\Github\SF10-Generation-System\SF10 Generation Systems\bin\Debug\SkiaSharp.dll
+I:\AAA  Important\dotNetWorkspace\Github\SF10-Generation-System\SF10 Generation Systems\bin\Debug\SkiaSharp.Views.Desktop.Common.dll
+I:\AAA  Important\dotNetWorkspace\Github\SF10-Generation-System\SF10 Generation Systems\bin\Debug\SkiaSharp.Views.WindowsForms.dll
+I:\AAA  Important\dotNetWorkspace\Github\SF10-Generation-System\SF10 Generation Systems\bin\Debug\System.Buffers.dll
+I:\AAA  Important\dotNetWorkspace\Github\SF10-Generation-System\SF10 Generation Systems\bin\Debug\System.Drawing.Common.dll
+I:\AAA  Important\dotNetWorkspace\Github\SF10-Generation-System\SF10 Generation Systems\bin\Debug\System.Memory.dll
+I:\AAA  Important\dotNetWorkspace\Github\SF10-Generation-System\SF10 Generation Systems\bin\Debug\System.Numerics.Vectors.dll
+I:\AAA  Important\dotNetWorkspace\Github\SF10-Generation-System\SF10 Generation Systems\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+I:\AAA  Important\dotNetWorkspace\Github\SF10-Generation-System\SF10 Generation Systems\bin\Debug\System.Text.Encodings.Web.dll
+I:\AAA  Important\dotNetWorkspace\Github\SF10-Generation-System\SF10 Generation Systems\bin\Debug\System.Text.Json.dll
+I:\AAA  Important\dotNetWorkspace\Github\SF10-Generation-System\SF10 Generation Systems\bin\Debug\System.Threading.Tasks.Extensions.dll
+I:\AAA  Important\dotNetWorkspace\Github\SF10-Generation-System\SF10 Generation Systems\bin\Debug\System.ValueTuple.dll
+I:\AAA  Important\dotNetWorkspace\Github\SF10-Generation-System\SF10 Generation Systems\bin\Debug\BouncyCastle.Cryptography.xml
+I:\AAA  Important\dotNetWorkspace\Github\SF10-Generation-System\SF10 Generation Systems\bin\Debug\GemBox.Document.xml
+I:\AAA  Important\dotNetWorkspace\Github\SF10-Generation-System\SF10 Generation Systems\bin\Debug\GemBox.Email.xml
+I:\AAA  Important\dotNetWorkspace\Github\SF10-Generation-System\SF10 Generation Systems\bin\Debug\GemBox.Imaging.xml
+I:\AAA  Important\dotNetWorkspace\Github\SF10-Generation-System\SF10 Generation Systems\bin\Debug\GemBox.Pdf.xml
+I:\AAA  Important\dotNetWorkspace\Github\SF10-Generation-System\SF10 Generation Systems\bin\Debug\GemBox.Presentation.xml
+I:\AAA  Important\dotNetWorkspace\Github\SF10-Generation-System\SF10 Generation Systems\bin\Debug\GemBox.Spreadsheet.xml
+I:\AAA  Important\dotNetWorkspace\Github\SF10-Generation-System\SF10 Generation Systems\bin\Debug\HarfBuzzSharp.pdb
+I:\AAA  Important\dotNetWorkspace\Github\SF10-Generation-System\SF10 Generation Systems\bin\Debug\HarfBuzzSharp.xml
+I:\AAA  Important\dotNetWorkspace\Github\SF10-Generation-System\SF10 Generation Systems\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+I:\AAA  Important\dotNetWorkspace\Github\SF10-Generation-System\SF10 Generation Systems\bin\Debug\OpenTK.pdb
+I:\AAA  Important\dotNetWorkspace\Github\SF10-Generation-System\SF10 Generation Systems\bin\Debug\OpenTK.xml
+I:\AAA  Important\dotNetWorkspace\Github\SF10-Generation-System\SF10 Generation Systems\bin\Debug\OpenTK.GLControl.pdb
+I:\AAA  Important\dotNetWorkspace\Github\SF10-Generation-System\SF10 Generation Systems\bin\Debug\OpenTK.GLControl.xml
+I:\AAA  Important\dotNetWorkspace\Github\SF10-Generation-System\SF10 Generation Systems\bin\Debug\Pkcs11Interop.xml
+I:\AAA  Important\dotNetWorkspace\Github\SF10-Generation-System\SF10 Generation Systems\bin\Debug\ScottPlot.xml
+I:\AAA  Important\dotNetWorkspace\Github\SF10-Generation-System\SF10 Generation Systems\bin\Debug\ScottPlot.WinForms.xml
+I:\AAA  Important\dotNetWorkspace\Github\SF10-Generation-System\SF10 Generation Systems\bin\Debug\SkiaSharp.pdb
+I:\AAA  Important\dotNetWorkspace\Github\SF10-Generation-System\SF10 Generation Systems\bin\Debug\SkiaSharp.xml
+I:\AAA  Important\dotNetWorkspace\Github\SF10-Generation-System\SF10 Generation Systems\bin\Debug\SkiaSharp.Views.Desktop.Common.pdb
+I:\AAA  Important\dotNetWorkspace\Github\SF10-Generation-System\SF10 Generation Systems\bin\Debug\SkiaSharp.Views.Desktop.Common.xml
+I:\AAA  Important\dotNetWorkspace\Github\SF10-Generation-System\SF10 Generation Systems\bin\Debug\SkiaSharp.Views.WindowsForms.pdb
+I:\AAA  Important\dotNetWorkspace\Github\SF10-Generation-System\SF10 Generation Systems\bin\Debug\SkiaSharp.Views.WindowsForms.xml
+I:\AAA  Important\dotNetWorkspace\Github\SF10-Generation-System\SF10 Generation Systems\bin\Debug\System.Buffers.xml
+I:\AAA  Important\dotNetWorkspace\Github\SF10-Generation-System\SF10 Generation Systems\bin\Debug\System.Memory.xml
+I:\AAA  Important\dotNetWorkspace\Github\SF10-Generation-System\SF10 Generation Systems\bin\Debug\System.Numerics.Vectors.xml
+I:\AAA  Important\dotNetWorkspace\Github\SF10-Generation-System\SF10 Generation Systems\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+I:\AAA  Important\dotNetWorkspace\Github\SF10-Generation-System\SF10 Generation Systems\bin\Debug\System.Text.Encodings.Web.xml
+I:\AAA  Important\dotNetWorkspace\Github\SF10-Generation-System\SF10 Generation Systems\bin\Debug\System.Text.Json.xml
+I:\AAA  Important\dotNetWorkspace\Github\SF10-Generation-System\SF10 Generation Systems\bin\Debug\System.Threading.Tasks.Extensions.xml
+I:\AAA  Important\dotNetWorkspace\Github\SF10-Generation-System\SF10 Generation Systems\bin\Debug\System.ValueTuple.xml
+I:\AAA  Important\dotNetWorkspace\Github\SF10-Generation-System\SF10 Generation Systems\obj\Debug\SF10_Generation_Systems.Menu.resources
+I:\AAA  Important\dotNetWorkspace\Github\SF10-Generation-System\SF10 Generation Systems\obj\Debug\SF10_Generation_Systems.Test.resources
+I:\AAA  Important\dotNetWorkspace\Github\SF10-Generation-System\SF10 Generation Systems\obj\Debug\SF10_Generation_Systems.Form1.resources
+I:\AAA  Important\dotNetWorkspace\Github\SF10-Generation-System\SF10 Generation Systems\obj\Debug\SF10_Generation_Systems.frmMain.resources
+I:\AAA  Important\dotNetWorkspace\Github\SF10-Generation-System\SF10 Generation Systems\obj\Debug\SF10_Generation_Systems.Selector.resources
+I:\AAA  Important\dotNetWorkspace\Github\SF10-Generation-System\SF10 Generation Systems\obj\Debug\SF10_Generation_Systems.Properties.Resources.resources
+I:\AAA  Important\dotNetWorkspace\Github\SF10-Generation-System\SF10 Generation Systems\obj\Debug\SF10 Generation Systems.csproj.GenerateResource.cache
+I:\AAA  Important\dotNetWorkspace\Github\SF10-Generation-System\SF10 Generation Systems\obj\Debug\SF10 Generation Systems.csproj.CoreCompileInputs.cache
+I:\AAA  Important\dotNetWorkspace\Github\SF10-Generation-System\SF10 Generation Systems\obj\Debug\SF10 Generation Systems.csproj.CopyComplete
+I:\AAA  Important\dotNetWorkspace\Github\SF10-Generation-System\SF10 Generation Systems\obj\Debug\SF10 Generation Systems.exe
+I:\AAA  Important\dotNetWorkspace\Github\SF10-Generation-System\SF10 Generation Systems\obj\Debug\SF10 Generation Systems.pdb
+I:\AAA  Important\dotNetWorkspace\Github\SF10-Generation-System\SF10 Generation Systems\obj\Debug\SF10 Generation Systems.csprojAssemblyReference.cache
+E:\AAA  Important\dotNetWorkspace\Github\SF10-Generation-System\SF10 Generation Systems\obj\Debug\SF10_Generation_Systems.Menu.resources
+E:\AAA  Important\dotNetWorkspace\Github\SF10-Generation-System\SF10 Generation Systems\obj\Debug\SF10_Generation_Systems.Test.resources
+E:\AAA  Important\dotNetWorkspace\Github\SF10-Generation-System\SF10 Generation Systems\obj\Debug\SF10 Generation Systems.csproj.SuggestedBindingRedirects.cache
+E:\AAA  Important\dotNetWorkspace\Github\SF10-Generation-System\SF10 Generation Systems\obj\Debug\SF10_Generation_Systems.frmLogin.resources

@@ -1,97 +1,20 @@
-﻿using System;
+﻿using GemBox.Spreadsheet;
+using System;
+using System.Collections;
 using System.Collections.Generic;
-using System.ComponentModel;
 using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Windows.Forms;
-using GemBox.Spreadsheet;
 using System.IO;
+using System.Windows.Forms;
 
 namespace SF10_Generation_Systems
 {
     public partial class frmMain : Form
     {
-        public void openFile()
-        {
-
-
-        }
         public frmMain()
         {
             InitializeComponent();
         }
-
-        private void frmMain_Load(object sender, EventArgs e)
-        {
-
-        }
-        public bool menuExpand = false;
-        private void menuTransition_Tick(object sender, EventArgs e)
-        {
-            if (menuExpand)
-            {
-                if (fpnlMenu.Width == 180)
-                {
-                    menuTransition.Enabled = false;
-                }
-                else
-                {
-                    fpnlMenu.Width += 20 ;
-                }
-            }
-            else
-            {
-                if (fpnlMenu.Width == 60)
-                {
-                    menuTransition.Enabled = false;
-                }
-                else
-                {
-                    fpnlMenu.Width -= 20;
-                }
-            }
-        }
-
-
-        private void btnMenu_Click(object sender, EventArgs e)
-        {
-            menuExpand = !menuExpand;
-            menuTransition.Enabled = true;
-        }
-
-        private void btnFile_Click(object sender, EventArgs e)
-        {
-            if (fpnlFileMenu.Height == 150)
-            {
-                fpnlFileMenu.Height = 50;
-                fpnlOpenMenu.Height = 50;
-            }
-            else
-            {
-                fpnlFileMenu.Height = 150;
-            }
-        }
-
-        private void btnOpenMenu_Click(object sender, EventArgs e)
-        {
-            if(fpnlOpenMenu.Height == 150)
-            {
-                fpnlFileMenu.Height = 150;
-                fpnlOpenMenu.Height = 50;
-            }
-            else
-            {
-                fpnlFileMenu.Height = 250;
-                fpnlOpenMenu.Height = 150;
-            }
-        }
-
-        private void btnOpenData_Click_1(object sender, EventArgs e)
-        {
-
+        private void btnOpenData_Click(object sender, EventArgs e) {
             if (openFileDialog1.ShowDialog() == DialogResult.OK)
             {
                 try
@@ -136,47 +59,155 @@ namespace SF10_Generation_Systems
             }
         }
 
-        private void dataGridView1_DataSourceChanged(object sender, EventArgs e)
+        private void frmMain_SizeChanged(object sender, EventArgs e)
         {
-            pageShift();
-            if (dataGridView1.DataSource != null)
+            pageHandler.UpdatePage(pnlMain);
+        }
+
+        private void btnMenu_Click(object sender, EventArgs e)
+        {
+            if (pnlSideBar.Width==160)
             {
-                dataGridView1.Visible = true;
+                pnlSideBar.Width=43;
             }
             else
             {
-                dataGridView1.Visible = false;
+                pnlSideBar.Width=160;
             }
+            pageHandler.UpdatePage(pnlMain);
         }
 
-        private void frmMain_SizeChanged(object sender, EventArgs e)
+        private void frmMain_Load(object sender, EventArgs e)
         {
-            this.panel10.Left = (this.pnlSpreadsheet.Width - panel10.Width) / 2;
-            this.panel10.Top = (this.pnlSpreadsheet.Height - panel10.Height) / 2;
-            this.panel12.Left = (this.pnlHome.Width - panel12.Width) / 2;
-            this.panel12.Top = (this.pnlHome.Height - panel12.Height) / 2;
-        }
-
-        private void panel9_Paint(object sender, PaintEventArgs e)
-        {
-
+            foreach (Control control in pnlMain.Controls)
+            {
+                pageHandler.AddPage(control);
+            }
+            pageHandler.ChangePage(pnlHomePage);
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
-            pageShift();
-            pnlHome.Visible = true;
-            
+            pageHandler.PageFeedback(btnHome);
+            pageHandler.ChangePage(pnlHomePage);
         }
 
-        public void pageShift()
+        private void btnFile_Click(object sender, EventArgs e)
         {
-            foreach (Control t in pnlMain.Controls)
+            pageHandler.PageFeedback(btnFile);
+            pageHandler.ChangePage(pnlFilePage);
+        }
+
+        private void btnSpreadsheet_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            pageHandler.PageFeedback(btnAccount);
+            pageHandler.ChangePage(pnlAccountPage);
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            pageHandler.PageFeedback(btnSettings);
+            pageHandler.ChangePage(pnlSettingsPage);
+        }
+
+        private void button1_Click_1(object sender, EventArgs e)
+        {
+            pageHandler.ChangePage(pnlDataViewerPage);
+        }
+
+        private void panel10_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void button3_Click_1(object sender, EventArgs e)
+        {
+            pnlNoDataWindow.Visible = false;
+            pnlDataWindow.Visible = true;
+        }
+
+        private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
+
+        private void label16_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button4_Click_1(object sender, EventArgs e)
+        {
+            pageHandler.ChangePage(pnlDataViewerPage);
+            pnlNoDataWindow.Visible = false;
+            pnlDataWindow.Visible = true;
+        }
+    }
+    public static class pageHandler
+    {
+        public static List<Control> LastButton = new List<Control>();
+        public static List<Control> Pages = new List<Control>();
+        public static List<String> PageNames = new List<String>();
+        public static void AddPage(Control control)
+        {
+            Pages.Add(control);
+            PageNames.Add(control.Name);
+        }
+        public static void ChangePage(String pageName)
+        {
+            for (int x = 0; x < Pages.Count; x++)
             {
-                t.Visible = false;
+                if (PageNames[x]!=pageName)
+                {
+                    Pages[x].Visible = false;
+                }
+                else
+                {
+                    Pages[x].Visible = true;
+                }
             }
-            pnlTopPanel.Visible = true;
-            pnlSpreadsheet.Visible = true;
+        }
+        public static void ChangePage(Control control)
+        {
+            for (int x = 0; x < Pages.Count; x++)
+            {
+                if (Pages[x]!=control)
+                {
+                    Pages[x].Visible = false;
+                }
+                else
+                {
+                    Pages[x].Visible = true;
+                }
+            }
+            pageHandler.UpdatePage(control.Parent);
+        }
+        public static void UpdatePage(Control pnlMain)
+        {
+            foreach (Control cnt in pnlMain.Controls)
+            {
+                foreach (Control c in cnt.Controls)
+                {
+                    c.Left = (pnlMain.Width - c.Width) / 2;
+                    c.Top = (pnlMain.Height - c.Height) / 2;
+                }
+            }
+        }
+        public static void PageFeedback(Control control)
+        {
+            if(LastButton.Count < 1)
+            {
+                LastButton.Add(new Control());
+            }
+            LastButton.Add(control);
+            LastButton[0].BackColor = System.Drawing.Color.FromArgb(158, 223, 156);
+            LastButton[1].BackColor = System.Drawing.Color.FromArgb(98, 130, 93);
+            LastButton.RemoveAt(0);
         }
     }
 }

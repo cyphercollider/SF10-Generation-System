@@ -145,21 +145,39 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="frmLogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmLogin.Designer.cs">
+      <DependentUpon>frmLogin.cs</DependentUpon>
+    </Compile>
     <Compile Include="frmMain.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="frmMain.Designer.cs">
       <DependentUpon>frmMain.cs</DependentUpon>
     </Compile>
-    <None Include="main.cs">
-      <SubType>Form</SubType>
-    </None>
-    <None Include="main.Designer.cs" />
-    <Compile Include="main1.Designer.cs">
+    <Compile Include="Menu.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
-      <DependentUpon>main.resx</DependentUpon>
+      <DependentUpon>Menu.resx</DependentUpon>
     </Compile>
+    <Compile Include="Test.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Test.Designer.cs">
+      <DependentUpon>Test.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="frmLogin.resx">
+      <DependentUpon>frmLogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Menu.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Menu.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Test.resx">
+      <DependentUpon>Test.cs</DependentUpon>
+    </EmbeddedResource>
     <Compile Include="selector.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -174,10 +192,6 @@
     <EmbeddedResource Include="frmMain.resx">
       <DependentUpon>frmMain.cs</DependentUpon>
     </EmbeddedResource>
-    <None Include="main.resx">
-      <Generator>ResXFileCodeGenerator</Generator>
-      <LastGenOutput>main1.Designer.cs</LastGenOutput>
-    </None>
     <EmbeddedResource Include="selector.resx">
       <DependentUpon>selector.cs</DependentUpon>
     </EmbeddedResource>
@@ -257,12 +271,8 @@
     <None Include="Resources\home %282%29.png" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Resources\main\menu\data.png" />
     <Content Include="Resources\main\menu\File.png" />
     <Content Include="Resources\main\menu\menu.png" />
-    <Content Include="Resources\main\menu\open.png" />
-    <Content Include="Resources\main\menu\project.png" />
-    <Content Include="Resources\main\menu\submenu.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Import Project="..\packages\HarfBuzzSharp.NativeAssets.macOS.7.3.0\build\net462\HarfBuzzSharp.NativeAssets.macOS.targets" Condition="Exists('..\packages\HarfBuzzSharp.NativeAssets.macOS.7.3.0\build\net462\HarfBuzzSharp.NativeAssets.macOS.targets')" />

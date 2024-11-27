@@ -1,8 +1,11 @@
 {
   "ExpandedNodes": [
     "",
-    "\\SF10 Generation Systems"
+    "\\SF10 Generation Systems",
+    "\\SF10 Generation Systems\\Resources",
+    "\\SF10 Generation Systems\\Resources\\main",
+    "\\SF10 Generation Systems\\Resources\\main\\menu"
   ],
-  "SelectedNode": "\\SF10 Generation Systems",
+  "SelectedNode": "\\SF10 Generation Systems\\Resources\\main\\menu\\Menu.png",
   "PreviewInSolutionExplorer": false
 }

@@ -8,7 +8,7 @@ namespace SF10_Generation_Systems
 {
     public static class ApplicationStorage
     {
-        public static int test;
+        public static String Pass;
     }
     static class Program
     {
@@ -20,7 +20,9 @@ namespace SF10_Generation_Systems
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
+
             Application.Run(new frmMain());
+            
         }
     }
 }

@@ -22,14 +22,14 @@ namespace SF10_Generation_Systems {
     [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Resources.Tools.StronglyTypedResourceBuilder", "15.0.0.0")]
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
-    internal class main {
+    internal class Menu {
         
         private static global::System.Resources.ResourceManager resourceMan;
         
         private static global::System.Globalization.CultureInfo resourceCulture;
         
         [global::System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1811:AvoidUncalledPrivateCode")]
-        internal main() {
+        internal Menu() {
         }
         
         /// <summary>
@@ -39,7 +39,7 @@ namespace SF10_Generation_Systems {
         internal static global::System.Resources.ResourceManager ResourceManager {
             get {
                 if (object.ReferenceEquals(resourceMan, null)) {
-                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("SF10_Generation_Systems.main", typeof(main).Assembly);
+                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("SF10_Generation_Systems.Menu", typeof(Menu).Assembly);
                     resourceMan = temp;
                 }
                 return resourceMan;
@@ -57,36 +57,6 @@ namespace SF10_Generation_Systems {
             }
             set {
                 resourceCulture = value;
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Point similar to {X=17,Y=17}.
-        /// </summary>
-        internal static System.Drawing.Point menuStrip1_TrayLocation {
-            get {
-                object obj = ResourceManager.GetObject("menuStrip1.TrayLocation", resourceCulture);
-                return ((System.Drawing.Point)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Point similar to {X=248,Y=17}.
-        /// </summary>
-        internal static System.Drawing.Point openFileDialog1_TrayLocation {
-            get {
-                object obj = ResourceManager.GetObject("openFileDialog1.TrayLocation", resourceCulture);
-                return ((System.Drawing.Point)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Point similar to {X=132,Y=17}.
-        /// </summary>
-        internal static System.Drawing.Point statusStrip1_TrayLocation {
-            get {
-                object obj = ResourceManager.GetObject("statusStrip1.TrayLocation", resourceCulture);
-                return ((System.Drawing.Point)(obj));
             }
         }
     }
